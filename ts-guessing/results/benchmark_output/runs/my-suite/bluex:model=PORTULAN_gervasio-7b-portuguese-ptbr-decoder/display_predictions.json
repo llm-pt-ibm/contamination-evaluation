@@ -1,0 +1,5618 @@
+[
+  {
+    "instance_id": "id0",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id1",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "descarte de garrafas PET e sacolas pl\u00e1sticas, aumentando \na cadeia de produ\u00e7\u00e3o de micropl\u00e1sticos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id2",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "1/2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id3",
+    "train_trial_index": 0,
+    "predicted_text": "-",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id4",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "primeira  gera\u00e7\u00e3o,  produ\u00e7\u00e3o  essa  que  compensa  a \ndiminui\u00e7\u00e3o  na  produ\u00e7\u00e3o  de  bioetanol  de  segunda \ngera\u00e7\u00e3o, tendo como base os teores indicados.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id5",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "porque a lisonjeava.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id6",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id7",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Em fun\u00e7\u00e3o de experi\u00eancias sociais distintas, a no\u00e7\u00e3o \nde  pertencimento  era  similar  entre  os  sujeitos \nenvolvidos na realidade colonial ibero-americana. Por \nexemplo, os quilombolas tinham a mesma identidade \nnacional que os pardos livres.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id8",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id9",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "2.160",
+    "stats": {}
+  },
+  {
+    "instance_id": "id10",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "os entraves \u00e0 plenitude l\u00edrica s\u00e3o removidos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id11",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "h\u00e1bitos  aqu\u00e1ticos,  que  os  tornam  suscet\u00edveis  a \npredadores.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Permitiu  o  desenvolvimento  de  um  extenso  parque \nindustrial.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id13",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id14",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Os ciclones que atingem o litoral de Mo\u00e7ambique t\u00eam\norigem no encontro das \u00e1guas quentes do Oceano\nAtl\u00e2ntico com o Oceano \u00cdndico, no cabo da Boa\nEsperan\u00e7a.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id15",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "um modelo pol\u00edtico de democracia representativa.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id16",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id17",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "n\u00e3o pode ser considerado carbono neutro e que a \u00faltima \nequa\u00e7\u00e3o representa uma rea\u00e7\u00e3o que levaria ao aquecimento \nda parede onde a cal foi aplicada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id18",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "300 MW",
+    "stats": {}
+  },
+  {
+    "instance_id": "id19",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a  cr\u00edtica  \u00e0s  rea\u00e7\u00f5es  da  nossa  sociedade  frente  aos \nproblemas que ficaram no passado.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id20",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "uma condena\u00e7\u00e3o do comportamento moral da senhora \nem quest\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id21",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id22",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Safo  constata  a  diversidade  dos  gostos  humanos  e \nevidencia o valor do amor para o conceito de beleza.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id23",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id24",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O direito de greve e a regulamenta\u00e7\u00e3o do sal\u00e1rio m\u00ednimo \nforam algumas das novidades previstas na Consolida\u00e7\u00e3o \ndas Leis do Trabalho (1943).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id25",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\"o prazer animal de existir\" (L. 8-9).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id26",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id27",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A personagem masculina se caracteriza pelo interesse\nsexual; a feminina, pela devo\u00e7\u00e3o ao marido.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id28",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id29",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "885 <= x < 900.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id30",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A crise da falta de semicondutores revela um dos efeitos \nnegativos  da  globaliza\u00e7\u00e3o:  a  independ\u00eancia  da  cadeia \nprodutiva  em  escala  mundial,  pouco  suscet\u00edvel  a \ndesequil\u00edbrios de oferta e demanda.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id31",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id32",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "I e II.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id33",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Em  vista  da  oposi\u00e7\u00e3o  norte\u2010americana  \u00e0  iniciativa,  a \ncoopera\u00e7\u00e3o entre os pa\u00edses membros n\u00e3o foi implantada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id34",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id35",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "vivencia um conflito \u2013 uma ideia fortalecida por \"a bem\ndizer\" (L. 5).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id36",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "as independ\u00eancias de Angola e de Mo\u00e7ambique foram\nmarcadas por um processo relativamente pac\u00edfico, que\nenvolveu ampla negocia\u00e7\u00e3o com os poderes metropolitanos\nem Portugal.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id37",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O  texto  prop\u00f5e  compreender  os  Descobrimentos \nportugueses  como  impulsionados  por  uma  nova \nmentalidade emp\u00edrica com implica\u00e7\u00f5es tecnol\u00f3gicas, o \nque reafirma a no\u00e7\u00e3o da Terra plana.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id38",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "protoplastos \u2015 c\u00e9lulas vegetais desprovidas de parede \ncelular.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id39",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id40",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "dificultada por processos eleitorais que renovam a\ndemocracia, inviabilizando os fascismos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id41",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "tecido esclerenquim\u00e1tico desenvolvido, capaz de\npromover alta atividade fotossint\u00e9tica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id42",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "pertinente quanto \u00e0 an\u00e1lise social, ao registrar o\nracismo e a preconceito na sociedade, e correto no\naspecto cient\u00edfico, ao descrever as propriedades\nqu\u00edmicas de uma l\u00e1grima.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id43",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id44",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "R$ 4.200,00",
+    "stats": {}
+  },
+  {
+    "instance_id": "id45",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a documenta\u00e7\u00e3o da Sociedade Real Mar\u00edtima e Militar \nfoi usada, no Brasil, na funda\u00e7\u00e3o do Estado e no \nreconhecimento territorial da na\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id46",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id47",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "manufatureira, naval, monote\u00edsta e federalizada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id48",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "respiram o dia todo e fotossintetizam apenas durante o \nper\u00edodo diurno.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id49",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "3,9 x 10^14 Hz.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "III, apenas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id51",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Nenhum dos dois irm\u00e3os assumiu a paternidade de Nael, \nnem Nael os reconheceu como pais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id52",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id53",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "10 trilh\u00f5es e 100 trilh\u00f5es.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id54",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "praticavam o canibalismo devido \u00e0 escassez de alimentos \nnas regi\u00f5es em que viviam.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id55",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "I  -  Diminui\u00e7\u00e3o  do  com\u00e9rcio  interno  de  produtos \nagr\u00edcolas.\nII - Aumento da utiliza\u00e7\u00e3o dos aqu\u00edferos para abas-\ntecimento dos cultivos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id56",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "permitiu a vit\u00f3ria eleitoral de Mandela, apoiado\nmassivamente pelos b\u00f4eres insuflados pelo nacionalismo\nsul\u2010africano.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id57",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00e9 uma constata\u00e7\u00e3o de que, na posi\u00e7\u00e3o de ex-col\u00f4nia, n\u00e3o \nconseguimos aprender l\u00ednguas estrangeiras.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id58",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "S\u00e3o crust\u00e1ceos - considerados predadores ativos das \ncadeias tr\u00f3ficas -, capazes de metabolizar e excretar \nelevadas taxas de ars\u00eanico e chumbo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id59",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Obtiveram o direito \u00e0 educa\u00e7\u00e3o e acesso \u00e0s escolas filos\u00f3ficas da cidade-Estado de Atenas durante o per\u00edodo cl\u00e1ssico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id60",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id61",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "(i) C\u00f3digo gen\u00e9tico; (ii) DNA; (iii) Gen\u00f3tipo; (iv) tRNA.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id62",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Per\u00edodo: Estado Novo. \nImplica\u00e7\u00f5es territoriais: Expans\u00e3o da economia extrativista e concentra\u00e7\u00e3o fundi\u00e1ria. \nImplica\u00e7\u00f5es sociais: Elimina\u00e7\u00e3o dos direitos trabalhistas na cidade e no campo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id63",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "aborda o tema da mem\u00f3ria, considerada uma faculdade \nque torna o ser humano menos amargo e sombrio.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id64",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Dulcin\u00e9a e Dorot\u00e9a n\u00e3o simpatizam com Zeca Diabo, o\nque indica que a pe\u00e7a faz uma cr\u00edtica \u00e0s rela\u00e7\u00f5es\nsociais presididas por afetos e interesses privados.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id65",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id66",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Coari (Brasil) \u2013 4\u00ba latitude S e 63\u00b0 longitude W; Temon\n(Mal\u00e1sia) \u2013 4\u00ba latitude N e 117\u00ba longitude E.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id67",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a  35  \u00baC  e  resfriar  lentamente  a  solu\u00e7\u00e3o  at\u00e9  15  \u00baC, \npromover uma filtra\u00e7\u00e3o a 15 \u00baC e recuperar o s\u00f3lido; \numa parte da insulina permaneceria em solu\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id68",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A formula\u00e7\u00e3o de alian\u00e7as militares, a uni\u00e3o de for\u00e7as\nmon\u00e1rquicas e aboli\u00e7\u00e3o das fronteiras pol\u00edticas\ncontribu\u00edram para minar o poder dos Estados\u2010Nacionais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id69",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Uma etnia que historicamente alcan\u00e7ou a emancipa\u00e7\u00e3o\npol\u00edtica e social por meio da assimila\u00e7\u00e3o da cultura\neuropeia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id70",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id71",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "y = -1/\u221a2 + \u00b3\u221a(x^2)",
+    "stats": {}
+  },
+  {
+    "instance_id": "id72",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "pela m\u00fasica, que ressoa em can\u00e7\u00f5es l\u00edricas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id73",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a explora\u00e7\u00e3o das minas de ouro rec\u00e9m\u2010descobertas no interior, \nsomente acess\u00edveis pelo controle de portos no Atl\u00e2ntico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id74",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Os aqu\u00edferos est\u00e3o em profundidades que impossibilitam seu uso para atividades humanas, incluindo aqueles usos destinados a fins menos nobres, como lavagem de cal\u00e7adas e pra\u00e7as.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id75",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "curiosidade  sobre  a  biografia  dos  pintores  e  os \nmovimentos art\u00edsticos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id76",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "branqueamento  dos  p\u00f3lipos  de  cnid\u00e1rios  pela \nexpuls\u00e3o  de  suas  algas  simbiontes;  acidifica\u00e7\u00e3o \nmarinha em virtude dos maiores n\u00edveis de CO2 no ar; e  menor  taxa  fotossint\u00e9tica  em  raz\u00e3o  dos  n\u00edveis \noce\u00e2nicos elevados.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id77",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "souber reproduzir fielmente os modelos externos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id78",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "m^2 s/kg",
+    "stats": {}
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Porque faltam estudos que comprovem a inefic\u00e1cia da \nhidroxicloroquina  como  tratamento  para  Covid-19,  o \nque demanda novas pesquisas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id80",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id81",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "mal\u00edcia e ingenuidade.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id82",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "100 vezes maior que a DL da cafe\u00edna, subst\u00e2ncia\n50\nque deve ser classificada como t\u00f3xica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id83",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Duelo, com Cassiano e Silivana.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id84",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id85",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id86",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Uma ruptura trazida pelas universidades medievais foi\no in\u00edcio da atua\u00e7\u00e3o dos copistas nas bibliotecas, que\ncopiavam sistematicamente a produ\u00e7\u00e3o de autores\nlatinos cr\u00edticos aos dogmas religiosos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id87",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "infec\u00e7\u00e3o generalizada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id88",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "continuar\u00e1  sendo  invi\u00e1vel  comparada  a  tecnologias \nconvencionais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id89",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "As no\u00e7\u00f5es de que a identidade do poeta independe de sua\nexist\u00eancia biogr\u00e1fica, no \"Sonetilho\", e de que o mito se\nperpetua para al\u00e9m da vida, em \"Ulisses\", produzem uma\nanalogia entre os poemas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id90",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "adjetiva\u00e7\u00e3o de tempos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id91",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "era uma ditadura de direita que serviu de modelo para \npa\u00edses  como  Espanha,  Portugal,  Brasil  e  Estados \nUnidos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id92",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a fritadeira a ar, sendo cerca de 6 vezes maior que o\nconsumo do fog\u00e3o a g\u00e1s.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id93",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a repeti\u00e7\u00e3o exagerada da palavra \u201ccurandeiro\u201d (e \u201ccuran-\nderia\u201d) no trecho, como marca estil\u00edstica da simplicidade \nlingu\u00edstica das cr\u00f4nicas dessa s\u00e9rie.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id94",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "7,20 x 10^2 m^3.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id95",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "se cola \u00e0 imagem da leitora, indiscreta quanto aos amores \nalheios.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id96",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "decl\u00ednio  do  toyotismo;  liberaliza\u00e7\u00e3o  econ\u00f4mica  e \nconcorr\u00eancia com capitais asi\u00e1ticos; deslocamento de \nind\u00fastrias para cidades vizinhas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id97",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "indica um conflito psicol\u00f3gico, uma vez que a\npersonagem n\u00e3o se sente capaz de amar.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id98",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "apontados como benignos, com a inten\u00e7\u00e3o de preservar os \nind\u00edgenas distantes da degrada\u00e7\u00e3o dos costumes europeus.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id99",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a energia cin\u00e9tica do conjunto sonda + asteroide \u00e9\nconservada; j\u00e1 o momento linear do conjunto n\u00e3o \u00e9\nconservado.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id100",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "propor a  ruptura com tradi\u00e7\u00f5es  est\u00e9ticas  e  valorizar  a \nautonomia criativa local, sem desprezar os interc\u00e2mbios \ncom a Europa.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id101",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A  prolifera\u00e7\u00e3o  da  esp\u00e9cie  com  a  adapta\u00e7\u00e3o  seria \nmotivada pela satura\u00e7\u00e3o ecol\u00f3gica e pela exaust\u00e3o de \nrecursos pelas outras esp\u00e9cies.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id102",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id103",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id104",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "conclus\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id105",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "5,0 x 104 mol",
+    "stats": {}
+  },
+  {
+    "instance_id": "id106",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "resfriamento  na  linha  de  produ\u00e7\u00e3o  de  cerveja,  esse \nmaterial poderia ser substitu\u00eddo por sal de cozinha.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id107",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "alude \u00e0s dificuldades vividas pelas personagens mais \nrepresentativas da elite urbana, al\u00e9m de sugerir que \nnenhum homem \u00e9 uma ilha.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id108",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a contempla\u00e7\u00e3o das paisagens naturais, como se l\u00ea em \"ele admirava aquele peda\u00e7o de \u00e1gua quieta\".",
+    "stats": {}
+  },
+  {
+    "instance_id": "id109",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "o apagamento da linguagem de reivindica\u00e7\u00e3o e a falsa\nideia de um trabalhador fortalecido.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id110",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Os ind\u00edgenas, agentes de sua hist\u00f3ria, desde cedo\nsouberam explorar as rivalidades entre os europeus e\nmant\u00ea-los afastados dos seus conflitos inter\u00e9tnicos,\nanulando o impacto da presen\u00e7a portuguesa.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id111",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "1,5 kg de CO2 , que \u00e9 uma massa menor do que a massa de gasolina que foi queimada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id112",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id113",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "um  relato  saudosista  de  experi\u00eancias  vividas  no \ninternato, no qual o protagonista mostra o poder de \nsedu\u00e7\u00e3o  e  corrup\u00e7\u00e3o  das  amizades,  com  cr\u00edticas  \u00e0 \nfalsidade da burguesia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id114",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id115",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u221a2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id116",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id117",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "o realismo, visto no rigor explicativo dos fatos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id118",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "II e III, apenas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id119",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "1- BaSO4, 2- Ba(NO3)2, 3- BaCO3",
+    "stats": {}
+  },
+  {
+    "instance_id": "id120",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a veia cava superior transporta sangue pobre em oxig\u00eanio,\ncoletado da cabe\u00e7a, dos bra\u00e7os e da parte superior do\ntronco, e chega ao \u00e1trio esquerdo do cora\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id121",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Viviparidade e bico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id122",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Col\u00f4nia francesa nas Antilhas, Saint Domingue tornou-se \nrespons\u00e1vel por 40% da produ\u00e7\u00e3o mundial de cacau no \ns\u00e9culo  XVIII.  A  m\u00e3o  de  obra  empregada  era \nmajoritariamente escrava, com a explora\u00e7\u00e3o de africanos \nou de seus descendentes.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id123",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "transmissor da doen\u00e7a de Chagas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id124",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a  harmonia  da  natureza  consola  o  eu  l\u00edrico  das \nimperfei\u00e7\u00f5es da vida e da aus\u00eancia da pessoa amada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id125",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id126",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "fornece evid\u00eancias da liga\u00e7\u00e3o entre as idades das estrelas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id127",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "repeti\u00e7\u00e3o de adv\u00e9rbios que indicam as mesmas circunst\u00e2ncias de tempo e de lugar, para produzir um efeito de redund\u00e2ncia a respeito da luta pela terra.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id128",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id129",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id130",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id131",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\"Se h\u00e1 uma coisa que me faz muita tristeza \u00e9 gostar muito\nde uma pessoa, pensando que ela \u00e9 boa e depois ver que \u00e9\nruim\".",
+    "stats": {}
+  },
+  {
+    "instance_id": "id132",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id133",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u201clonge dos olhos, perto do cora\u00e7\u00e3o\u201d.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id134",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id135",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id136",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Ang\u00fastia e Campo geral",
+    "stats": {}
+  },
+  {
+    "instance_id": "id137",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id138",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "o processo de composi\u00e7\u00e3o do texto.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id139",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id140",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "33 horas de uso, sendo o volume de g\u00e1s restante no \ncilindro igual a 0 L e a press\u00e3o 0 atm.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id141",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "0,8.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id142",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "x  < -2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id143",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id144",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Os  revolucion\u00e1rios  consideravam  que  as  tarefas \ndesempenhadas  pelas  mulheres  na  Revolu\u00e7\u00e3o  eram \nirrelevantes e restritas \u00e0s atividades dom\u00e9sticas, por \nisso elas n\u00e3o conquistaram os mesmos direitos civis \nque os homens.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id145",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id146",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "impulsionou a ind\u00fastria do entretenimento, respons\u00e1vel \npor  forjar  comportamentos  que  se  opunham  ao \npessimismo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id147",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "I:  redu\u00e7\u00e3o, autotr\u00f3fico; II: redu\u00e7\u00e3o, heterotr\u00f3fico e autotr\u00f3fico; III: redu\u00e7\u00e3o, heterotr\u00f3fico e autotr\u00f3fico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id148",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u00e0 indecis\u00e3o de Fidel Castro sobre o alinhamento pol\u00edtico de \nCuba na Guerra Fria e ao isolamento da ilha em rela\u00e7\u00e3o a \noutros debates pol\u00edticos da \u00e9poca.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id149",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "leva \u00e0 forma\u00e7\u00e3o de \u00e1cido carb\u00f4nico, que, dissociado, gera,\nao final, \u00edons de hidrog\u00eanio e de carbonato, que se ligam,\nimpedindo a forma\u00e7\u00e3o do carbonato de c\u00e1lcio que comp\u00f5e\nos recifes de coral.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id150",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "8.801 km^2 e 10.400 km^2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id151",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a sonoridade repetitiva do p\u00eandulo intensifica as\nafli\u00e7\u00f5es da alma interior.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id152",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "descreve como os povos origin\u00e1rios do Novo Mundo auxiliaram os colonizadores na prospec\u00e7\u00e3o por riquezas, antevendo a realiza\u00e7\u00e3o do projeto colonizador.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id153",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id154",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "1,3 x 10^-12 J.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id155",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id156",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "explora a censura que o autor sofreu em sua \u00e9poca, ao ser \nimpedido de dar express\u00e3o aos seus sentimentos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id157",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "6,0 x 10^2 \u00baC.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id158",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O acidente de Tchern\u00f3bil \u00e9 um marco do\nfortalecimento da URSS. Ele gerou danos ambientais e\nhumanos que n\u00e3o foram solucionados at\u00e9 hoje, uma\nvez que os elementos lan\u00e7ados ao ambiente t\u00eam\ntempos de meia-vida longos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id159",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "age com ousadia, ao procurar subjugar Leusipo a contribuir com o seu projeto.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id160",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "revelar a primazia da comunica\u00e7\u00e3o oral sobre a escrita\ndas palavras.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id161",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id162",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a denomina\u00e7\u00e3o, usada no manic\u00f4mio, para conversas tera-\np\u00eauticas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id163",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\"Ap\u00f3s a queda, tomaram mais cuidado.\" e \"Quanto mais espa\u00e7o, mais liberdade.\".",
+    "stats": {}
+  },
+  {
+    "instance_id": "id164",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "a priva\u00e7\u00e3o da liberdade do ser humano, e o uso da\nindepend\u00eancia do per\u00edodo do p\u00eandulo simples com a\nmassa do corpo suspenso, feito por Umberto Eco, est\u00e1\ncorreto.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id165",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "o impacto, no Brasil, de conflitos de fronteira com os  pa\u00edses hisp\u00e2nicos rec\u00e9m-formados na Am\u00e9rica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id166",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A lideran\u00e7a \u00e9 a for\u00e7a sem a qual o poder pol\u00edtico de \nOliver Cromwell se extingue.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id167",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "47.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id168",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A defesa da Revolu\u00e7\u00e3o Mexicana e das ideias de\nsupremacia ind\u00edgena.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id169",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "pelo emprego de um tom sarc\u00e1stico, pois se apoia em linguagem informal para amea\u00e7ar o usu\u00e1rio.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id170",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Os  dendezeiros  do  litoral  brasileiro  s\u00e3o  resultado  de \ntecnologias de cruzamento entre esp\u00e9cies de palmeiras \nafricanas,  asi\u00e1ticas  e  nativas  que  eram  cultivadas \nsecularmente pelos ind\u00edgenas em toda a Am\u00e9rica do Sul.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id171",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00e0 origem divina do mundo contraposta aos problemas cria-\ndos pelo homem.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id172",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A pele \u00e9 seca e completamente imperme\u00e1vel, recoberta por \numa espessa camada, em forma de esp\u00edculas, composta da \nprote\u00edna quitina.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id173",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "incompreens\u00e3o; arma\u00e7\u00e3o; inofensivo; irredut\u00edvel.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id174",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "falta  de  controle  sobre  processos  sociais  capitais \npara a vida das pessoas; apagamento dos tempos e \ntemporalidades precedentes como forma de v\u00ednculo \ncoletivo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id175",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A prosperidade econ\u00f4mica de ambos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id176",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A = a^2 * (\u221a(2\u221a(5) + 2)/2)",
+    "stats": {}
+  },
+  {
+    "instance_id": "id177",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "11 de junho, \u00e0s 17 horas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id178",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A desigualdade est\u00e1 escrita nas linhas de trens e ressoa \nnos versos de Solano Trindade: onomatopeia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id179",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "(i) pr\u00f3stata; (ii) produ\u00e7\u00e3o de esperma; (iii) da creatina; (iv) \np\u00e2ncreas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id180",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id181",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Prevalecimento do trabalho assalariado imigrante e investimentos estatais na ind\u00fastria prim\u00e1ria.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id182",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "200 N.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id183",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "10^(27) kg.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id184",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a laiciza\u00e7\u00e3o integral do Estado iraniano.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id185",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "250.000.000 anos",
+    "stats": {}
+  },
+  {
+    "instance_id": "id186",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "62",
+    "stats": {}
+  },
+  {
+    "instance_id": "id187",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a  densidade  das  mol\u00e9culas  de  DNA  ter\u00e1  aumentado \nexponencialmente.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id188",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "rejeita, como jornalista, a escrita de fic\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id189",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "s\u00e3o sapr\u00f3bias, fundamentais na ciclagem dos nutrientes,\npois sintetizam a\u00e7\u00facares a partir do di\u00f3xido de carbono do\nar.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id190",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u201cLembra-me de alguns rapazes que se davam comigo, \ne  passaram  a  olhar-me  de  rev\u00e9s,  durante  algum \ntempo.\u201d",
+    "stats": {}
+  },
+  {
+    "instance_id": "id191",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id192",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "15 kWh.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id193",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id194",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Na miopia, a imagem do ponto remoto se forma depois\nda retina e a cirurgia visa a diminuir a dist\u00e2ncia focal\nda lente efetiva do olho.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id195",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "8 e 16.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id196",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id197",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "limitar alguma coisa, ao passo que na linguagem\nmatem\u00e1tica \u00e9 sin\u00f4nimo de restringir.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id198",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "uma diminui\u00e7\u00e3o do pH, e o sulfato de cobre(II), por sua \nvez,  um  aumento  do  pH  da  \u00e1gua  devido  \u00e0  rea\u00e7\u00e3o Cu^(+2) + H2O -> Cu(OH)^(+) + H^(+).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id199",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "da instabilidade das institui\u00e7\u00f5es estatais gerada pelo proces-\nso de coloniza\u00e7\u00e3o europeia no s\u00e9culo XVIII.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id200",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "pratica  a  carcinicultura  na  Patag\u00f4nia,  extrai  ouro  do \nAtacama,  conta  com  uma  economia  centrada  nas \nempresas  estatais  e  as  privatiza\u00e7\u00f5es  foram \ninexistentes.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id201",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "expressa nostalgia do passado, visto que mobiliza\nrefer\u00eancias \u00e0 cultura pop dos anos 1970.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id202",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "foi  removida  uma  quantidade  maior  de  H2S  que  a prevista  pela  estequiometria  da  equa\u00e7\u00e3o  qu\u00edmica \nfornecida.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id203",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "concess\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id204",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Algumas pessoas n\u00e3o sabem de onde v\u00eam os seus sonhos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id205",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id206",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "animosidade e revolta.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id207",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u221a(\ud835\udc53(1)\ud835\udc53(3)).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id208",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\"-1910. Minto, 1911. 1911, Manuel?\"",
+    "stats": {}
+  },
+  {
+    "instance_id": "id209",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id210",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id211",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id212",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id213",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "A realidade econ\u00f4mica de Portugal e Espanha nos s\u00e9culos XVII e XVIII tornou o Tratado de Tordesilhas obsoleto, uma vez que, nesse per\u00edodo, importava menos o com\u00e9rcio extrativista e mais a produ\u00e7\u00e3o industrial.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id214",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "dram\u00e1tica, ao representar as tens\u00f5es de seu tempo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id215",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "realiza-se apenas no \u00e2mbito internacional, enquanto a \ncriminalidade  \u00e9  marcada  basicamente  por  objetivos \nideol\u00f3gicos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id216",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "1,6 A.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id217",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "1,9 mol de hidroxila.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id218",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "S\u00e3o  consideradas  monarquias  confessionais  os \nterrit\u00f3rios  protestantes  que  se  mostravam  mais \nprop\u00edcios  ao  desenvolvimento  do  capitalismo \ncomercial, tornando-se, assim, na\u00e7\u00f5es enriquecidas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id219",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\ud835\udc5d\u00d70,80.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id220",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "pelo direito e pelos costumes, que s\u00e3o, por sua vez, definidos livremente pelos indiv\u00edduos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id221",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "remete \u00e0 vingan\u00e7a do negro contra a viol\u00eancia a que \nfoi submetido pelo branco.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id222",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O processo (I) n\u00e3o altera a alcalinidade da \u00e1gua do mar, mas compromete o processo de forma\u00e7\u00e3o de conchas de moluscos marinhos, nos quais a estrutura b\u00e1sica \u00e9 o carbonato de c\u00e1lcio, produto da rea\u00e7\u00e3o (II) .",
+    "stats": {}
+  },
+  {
+    "instance_id": "id223",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id224",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a hierarquiza\u00e7\u00e3o dos substantivos que comp\u00f5em a\nprimeira estrofe tem a fun\u00e7\u00e3o de situar essa fam\u00edlia na\nsociedade escravagista do s\u00e9culo XIX.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id225",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id226",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "1.485,20",
+    "stats": {}
+  },
+  {
+    "instance_id": "id227",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id228",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "(i)  definitivo;  (ii)  mirac\u00eddios;  (iii)  intermedi\u00e1rio;  (iv) \ncerc\u00e1rias.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id229",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "R$ 23.000,00.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id230",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id231",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "nost\u00e1lgica, devido \u00e0 presen\u00e7a de modelos situados no\npassado.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id232",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "valoriza\u00e7\u00e3o do mecenato como forma de prote\u00e7\u00e3o aos \nnovos pensadores.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id233",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Utilizou,  como  estrat\u00e9gias  pol\u00edticas  para  conter  o \navan\u00e7o portugu\u00eas em seus territ\u00f3rios, a forma\u00e7\u00e3o de \nalian\u00e7as  com  reinos  vizinhos  (como  Congo),  a \nexplora\u00e7\u00e3o dos conflitos entre Portugal e Holanda e a \ninterfer\u00eancia nas redes do tr\u00e1fico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id234",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\"Desisto / de tudo quanto \u00e9 misto / e que odiei ou senti\"\n(L. 6\u20108).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id235",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "1,5x10^6 N/m^2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id236",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "peste bub\u00f4nica, zoonose transmitida por ratos que assolou popula\u00e7\u00f5es europeias e asi\u00e1ticas no s\u00e9culo XIV, propagada pelas viagens comerciais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id237",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "o conformismo dos sertanejos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id238",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "II e III, apenas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id239",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Refutar a tese, mostrando que o amor \u00e0s sensa\u00e7\u00f5es se\nsobrep\u00f5e \u00e0 tend\u00eancia ao saber.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id240",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "advogar pela igualdade de direitos entre homens e mulhe-\nres.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id241",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "as chuvas sobre os rios da bacia do rio Paraguai s\u00e3o \nimportantes para o ciclo de alagamento do Pantanal, \num  bioma  com  misto  de  vegeta\u00e7\u00f5es  de  floresta, \ncerrado  e  caatinga.  A  produtividade  secund\u00e1ria  do \nbioma,  com  a  convers\u00e3o  de  luz  solar  em  energia  e \nbiomassa, d\u00e1 suporte para os demais n\u00edveis tr\u00f3ficos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id242",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "3O \u2192 O3",
+    "stats": {}
+  },
+  {
+    "instance_id": "id243",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Neste momento; Por conseguinte.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id244",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id245",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "os efeitos das mudan\u00e7as clim\u00e1ticas no passado eram locais; \nos eventos hist\u00f3ricos citados se desconectavam das mudan\u00e7as nos ecossistemas encontrados na Europa e na \u00c1sia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id246",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id247",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A crise econ\u00f4mica que se instalou no Brasil a partir de\nmeados dos anos de 1970 gerou press\u00e3o sobre o\ngoverno militar do General Figueiredo, que, em\nresposta, aprovou a Lei da Anistia e a Lei Org\u00e2nica\ndos Partidos, incentivou o movimento grevista e\ngarantiu a realiza\u00e7\u00e3o de elei\u00e7\u00f5es de forma lenta,\ngradual e segura.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id248",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id249",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "regime a partir de discord\u00e2ncias pol\u00edticas que levaram \n\u00e0 elei\u00e7\u00e3o do governo imperial.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id250",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A  hidr\u00f3lise  dos  carboidratos  essenciais  fornece \namino\u00e1cidos para a forma\u00e7\u00e3o das prote\u00ednas, as quais \nt\u00eam fun\u00e7\u00e3o construtora de diferentes tecidos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id251",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "pequenas com est\u00f4matos concentrados na parte superior,\naus\u00eancia de tricomas, cera sobre a epiderme foliar e\npar\u00eanquima aqu\u00edfero.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id252",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "10^(-30) J",
+    "stats": {}
+  },
+  {
+    "instance_id": "id253",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A destrui\u00e7\u00e3o do espelho traz a certeza da morte, pois \nsinaliza o suic\u00eddio do ser amado.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id254",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id255",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "externava a indigna\u00e7\u00e3o da popula\u00e7\u00e3o urbana branca com \nas pr\u00e1ticas da viol\u00eancia e dos castigos p\u00fablicos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id256",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O projeto planet\u00e1rio da monarquia cat\u00f3lica fundava-se \nem  um  corpo  jur\u00eddico  criado  com  argumentos \nteol\u00f3gicos, em uma burocracia exercida a dist\u00e2ncia e no \ntrabalho compuls\u00f3rio.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id257",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "eram, foram, poderiam, seriam.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id258",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id259",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a  ilus\u00e3o  da  centralidade  do  ser  humano  diante  da \nnatureza.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id260",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "explicitaram-se as leis que regiam a vida pol\u00edtica e social \nde uma na\u00e7\u00e3o subdesenvolvida da Am\u00e9rica Latina na \nd\u00e9cada  de  1970,  marcada  pela  in\u00e9rcia  e  pela \ncumplicidade dos cidad\u00e3os com a corrup\u00e7\u00e3o sist\u00eamica \ndo pa\u00eds.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id261",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "minimizar a relev\u00e2ncia da not\u00edcia e acentu\u00e1-la.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id262",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id263",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "frustrada, pois Rami, ao conhecer suas rivais, percebe \nque n\u00e3o possui todos os atributos desej\u00e1veis.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id264",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O recurso de tatuar o prisioneiro, al\u00e9m de impor um\nsofrimento f\u00edsico e moral, discriminava o tipo de\nremunera\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id265",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id266",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id267",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O  Brasil  do  s\u00e9culo  XX  construiu-se  como  uma \ndemocracia  racial,  o  que  garantiu  aos  movimentos \npol\u00edticos e identit\u00e1rios nacionais o acesso aos direitos \ncivis, pol\u00edticos e sociais, esvaziando as agendas dos \nmilitantes LGBTQIA+.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id268",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "investiga\u00e7\u00e3o  e  precis\u00e3o  na  abordagem  dos  fatos,  j\u00e1 \nque  ele  tamb\u00e9m  emite  seu  ju\u00edzo  sobre  o  assunto, \nconduzindo o leitor a aceitar a hist\u00f3ria que narra.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id269",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "passar por um \u201cletramento racial\u201d que dispense o\nlegado hist\u00f3rico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id270",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "1,2x10^5.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id271",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Cai\u00e7aras da regi\u00e3o litor\u00e2nea do Cear\u00e1 praticam a pesca artesanal, utilizam as riquezas naturais da Mata Atl\u00e2ntica para o \nextrativismo de frutos e fazem uso dos ro\u00e7ados para atividades agr\u00edcolas de subsist\u00eancia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id272",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Os conhecimentos sobre os fen\u00f4menos naturais\nconstru\u00eddos pelos mesopot\u00e2micos, eg\u00edpcios,\nmaced\u00f4nicos, babil\u00f4nicos, persas, entre outros povos,\nforam ignorados pelo Isl\u00e3 Medieval, marcado pelo\nfundamentalismo religioso.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id273",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Centros de deten\u00e7\u00e3o da Ditadura Militar, como o DOI-CODI, \noperaram  dentro da legalidade constitucional, sendo que \nos presos, pol\u00edticos ou n\u00e3o, eram fichados e tinham direito \u00e0 \ndefesa garantido por lei.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id274",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Inclus\u00e3o socioespacial urbana, impacto socioambiental,\nmigra\u00e7\u00e3o urbano-rural.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id275",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00e1lcool absoluto com \u00e1lcool hidratado, utilizando maior \nquantidade de \u00e1lcool absoluto.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id276",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id277",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id278",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A eclos\u00e3o da Primeira Guerra Mundial contribuiu para a difus\u00e3o de uma politica cultural de car\u00e1ter nacionalista e excludente.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id279",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id280",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O l\u00edtio \u00e9 o c\u00e1todo dessa bateria.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id281",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "resulta  de  especula\u00e7\u00f5es  financeiras  que,  sem \npassarem  pelos  sistemas  produtivos,  propiciam \nacumula\u00e7\u00f5es em capitais fict\u00edcios.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id282",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id283",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "2min00s.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id284",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\"a constitui\u00e7\u00e3o e a lei\" \u00e9 uma refer\u00eancia ao novo\nordenamento jur\u00eddico implantado ap\u00f3s o golpe promovido\npela Unidade Popular.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id285",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "pelo  processo  de  concentra\u00e7\u00e3o  de  oper\u00e1rios,  que \nestimulou a disputa por vagas e a diminui\u00e7\u00e3o dos sal\u00e1rios.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id286",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "5,2 x 103 J.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id287",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id288",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "4 x 10^(-7)",
+    "stats": {}
+  },
+  {
+    "instance_id": "id289",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "+27,5",
+    "stats": {}
+  },
+  {
+    "instance_id": "id290",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id291",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a  import\u00e2ncia  das  atitudes  de  determinado  grupo  de \npessoas em rela\u00e7\u00e3o aos problemas que o pa\u00eds de fato \nenfrenta.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id292",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A fortuna dos fi\u00e9is \u00e9 compar\u00e1vel \u00e0 felicidade eterna.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id293",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "interpretou as diferen\u00e7as lingu\u00edsticas como estrat\u00e9gia de \nresist\u00eancia dos nativos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id294",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00c9 uma doen\u00e7a bacteriana transmitida por got\u00edculas de\nsaliva ou de sangue de pessoas contaminadas, com\nalto risco de cont\u00e1gio.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id295",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "o  pedido  da  Esc\u00f3cia  por  um  novo  referendo  para \ndecidir  sua  perman\u00eancia  no  Reino  Unido  e  o \ncomprometimento  da  livre  circula\u00e7\u00e3o  de  cidad\u00e3os \neuropeus no Reino Unido.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id296",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O v\u00edrus da febre amarela e o da chikungunya podem \nser  transmitidos  pela  picada  do  mosquito  Aedes \naegypti.  Para  ambos  os  casos,  foram  desenvolvidas \nvacinas e o controle do inseto vetor n\u00e3o \u00e9 considerado \numa medida profil\u00e1tica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id297",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id298",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "na refer\u00eancia \u00e0 \u201cfresta\u201d como forma de o compositor se\npronunciar.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id299",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id300",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "As mulheres medievais eram impedidas do exerc\u00edcio das\natividades pol\u00edticas, ao contr\u00e1rio do que acontecera no\nmundo greco\u2010romano.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id301",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "(i) a concord\u00e2ncia verbal n\u00e3o padr\u00e3o; (ii) ilus\u00e3o do homem \nquanto \u00e0 sua superioridade.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id302",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id303",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a falta de conhecimento t\u00e9cnico dos adolescentes para o manejo de hardware.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id304",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A repeti\u00e7\u00e3o busca sensibilizar os fi\u00e9is para o valor de \ncada etapa da vida.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id305",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "I a movimentos antivacina\u00e7\u00e3o, que t\u00eam se expandido\npelo mundo.\nII ant\u00edgenos do agente patog\u00eanico, estimulando uma\nresposta imunol\u00f3gica ativa, em pessoas saud\u00e1veis.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id306",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a velocidade de transla\u00e7\u00e3o da Terra em torno do Sol e \no per\u00edodo do ano terrestre deveriam diminuir.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id307",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Aglomera\u00e7\u00e3o e Conurba\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id308",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\"O carro furou o pneu\".",
+    "stats": {}
+  },
+  {
+    "instance_id": "id309",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O marinheiro e o colonizador portugu\u00eas, apesar do esfor\u00e7o \nde constru\u00e7\u00e3o cultural, limitam-se a transpor integralmen-\nte o que aprenderam no passado para as configura\u00e7\u00f5es do \nfuturo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id310",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "se acomoda nos limites da vulgaridade.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id311",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "60 segundos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id312",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "12,5.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id313",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "sugere, pela imagem do halo de luz, que a verdadeira \nnobreza \u00e9 de esp\u00edrito.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id314",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Diminui\u00e7\u00e3o da frequ\u00eancia de caules e galhos tortuosos; aumento da frequ\u00eancia de plantas que apresentam folhas largas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id315",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "40 m/s^2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id316",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "22 milh\u00f5es de toneladas de diesel.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id317",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "As fal\u00e9sias ativas evoluem de processos continentais e marinhos, com aus\u00eancia de vegeta\u00e7\u00e3o na sua base.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id318",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "As  defini\u00e7\u00f5es  de  reprodu\u00e7\u00e3o  social  e  de  economia  do \ncuidado excluem, necessariamente, a possibilidade de que \no Estado seja respons\u00e1vel por parte das tarefas envolvidas \nna reprodu\u00e7\u00e3o das pessoas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id319",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id320",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id321",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id322",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A maioria da popula\u00e7\u00e3o africana e seus descendentes\nj\u00e1 era livre quando a Lei \u00c1urea foi aprovada, porque\nvinha obtendo alforrias atrav\u00e9s de uma multiplicidade\nde estrat\u00e9gias, desde o per\u00edodo colonial.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id323",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O desenvolvimento socioecon\u00f4mico da regi\u00e3o das\nminas e do centro-sul levou a Coroa a deslocar a\ncapital da Col\u00f4nia de Salvador para Ouro Preto em\n1763.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id324",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "0,025 kWh.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id325",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id326",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id327",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A  pol\u00edtica  de  associar  o  cinema  \u00e0  exposi\u00e7\u00e3o  do \ncenten\u00e1rio  da  independ\u00eancia  evidencia  uma  vontade \ndo Estado em propagandear um pa\u00eds moderno.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id328",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "constata\u00e7\u00e3o  de  que  \u00e9  preciso  reagir  com  a  palavra  e \nmostrar-se nesse lugar marginal como literatura feita por \nminorias que juntas formam uma maioria.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id329",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "fluidez nos ventos do presente e conte\u00fado fixo no passado",
+    "stats": {}
+  },
+  {
+    "instance_id": "id330",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id331",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "demonstra  como  regimes  autorit\u00e1rios  favorecem  os \nmeios de informa\u00e7\u00e3o, para que os homens exer\u00e7am \nsuas capacidades de julgamento. Paine usou jornais \npara combater a Revolu\u00e7\u00e3o Americana.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id332",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "prop\u00f5e, como rea\u00e7\u00e3o do poeta \u00e0 vulgaridade do mundo, uma po\u00e9tica capaz de interferir na realidade pelo vi\u00e9s nost\u00e1lgico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id333",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id334",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id335",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "S\u00e3o marcos da crise do liberalismo na Europa: o\ncolapso das principais democracias, a ascens\u00e3o de\ngovernos totalit\u00e1rios e autorit\u00e1rios e a descren\u00e7a no\nlivre-mercado ap\u00f3s a crise de 1929.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id336",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id337",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u00e0s elevadas condi\u00e7\u00f5es de umidade provenientes do derretimento de neve.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id338",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "um republicano que suporta um velho Coronel de posi\u00e7\u00f5es \nconservadoras: \u201cReverend\u00edssimo, (...) os farrapos invadiram \nSanta Catarina, entraram na Laguna, e os legais fugiram. \nEu, se fosse o governo, mandava fuzilar a todos estes para \nescarmento...\u201d (p. 89).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id339",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Nos pa\u00edses favorecidos, as pessoas s\u00e3o naturalmente mais \nracionais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id340",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "homozigose, quando as duas crom\u00e1tides do gene TCF4 n\u00e3o \nproduzem prote\u00edna funcional devido \u00e0s altera\u00e7\u00f5es das bases \nnitrogenadas que modificam a prote\u00edna traduzida.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id341",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "R$ 3.600,00",
+    "stats": {}
+  },
+  {
+    "instance_id": "id342",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Metais pesados, como o chumbo, s\u00e3o encontrados em \nmaiores concentra\u00e7\u00f5es em predadores longevos ou do \ntopo da teia alimentar, como aves de rapina e peixes \npredat\u00f3rios.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id343",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id344",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id345",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id346",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "11/52.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id347",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "25.000 km.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id348",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u00e0 fun\u00e7\u00e3o do ensino universit\u00e1rio nos dias de hoje.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id349",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A  cidade  fechada  deriva  de  sua  instrumentaliza\u00e7\u00e3o \npara  a  efic\u00e1cia,  empobrecendo  experi\u00eancias  e \ntornando o espa\u00e7o habitado mais artificial.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id350",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a antipatia do jornalista no que diz respeito \u00e0 busca de\nidentidade dos artistas entrevistados.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id351",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "poder e perd\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id352",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "prev\u00ea a memoriza\u00e7\u00e3o de tabelas e f\u00f3rmulas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id353",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00e9 empregada na mesma classe gramatical em que \u00e9 \nempregada  em  ingl\u00eas,  apesar  de  assumir  sentidos \ndiferentes nas duas l\u00ednguas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id354",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "+2.400 kJ/mol.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id355",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "diminui e o volume do sistema aumenta.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id356",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id357",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id358",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id359",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "antecipa o destino funesto do ex\u2010militar Cassiano Gomes e\ndo marido tra\u00eddo Tur\u00edbio Todo, em \"Duelo\", ao qual serve\ncomo ep\u00edgrafe.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id360",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O nascimento dos direitos humanos envolveu a contesta\u00e7\u00e3o, \npela imprensa francesa, da tortura como pr\u00e1tica de obten-\n\u00e7\u00e3o de testemunho ou como castigo. Isso se devia ao fato \nde que a tortura feria a concep\u00e7\u00e3o crist\u00e3 de corpo, defendi-\nda pela Declara\u00e7\u00e3o dos Direitos do Homem e do Cidad\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id361",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "da doutrina revolucion\u00e1ria de ligas politicamente engajadas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id362",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "II e III, apenas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id363",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id364",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "\u201cSe me perguntarem o que \u00e9 a minha p\u00e1tria, direi:/ N\u00e3o\nsei. De fato, n\u00e3o sei (...).\u201d (Vin\u00edcius de Moraes, \u201cP\u00e1tria\nminha\u201d.)",
+    "stats": {}
+  },
+  {
+    "instance_id": "id365",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O cr\u00edtico evoca, como resultado da pouca inspira\u00e7\u00e3o art\u00edstica \ndo poeta, a sobrecarga de investimento formal (os hip\u00e9rbatos ou invers\u00f5es, por exemplo).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id366",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "os machos serem homozigotos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id367",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "os dois termos s\u00e3o contradit\u00f3rios, na medida em que \nrepresentam  interesses  opostos:  de  um  lado  os \ninteresses p\u00fablicos nacionais; de outro, as exig\u00eancias \nda globaliza\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id368",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id369",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "m1/m2 * \u221a2gh",
+    "stats": {}
+  },
+  {
+    "instance_id": "id370",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id371",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u201cSou viramundo virado / pelo mundo do sert\u00e3o.\u201d",
+    "stats": {}
+  },
+  {
+    "instance_id": "id372",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "permite compreender processos id\u00eanticos de forma\u00e7\u00e3o de \npalavras nas l\u00ednguas portuguesa e kotiria.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id373",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id374",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Por meio da sele\u00e7\u00e3o natural, os salm\u00f5es com alelo de \nresist\u00eancia  foram  os  mais  adaptados  a  transferir  o \ngene  \u00e0s  gera\u00e7\u00f5es  seguintes  por  reprodu\u00e7\u00e3o \ndiferencial.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id375",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "Essa ordem deveria ser revista: a pr\u00e1tica cardiovascular \u00e9 \ninfinitamente  mais  significativa  e  determinante  para  a \nnossa  sa\u00fade  org\u00e2nica  como  um  todo,  podendo  ser \nconsiderada o \"cora\u00e7\u00e3o\" de um treinamento consciente e \nsaud\u00e1vel.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id376",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id377",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u201cAs melhores universidades do mundo (que servem de \nrefer\u00eancia)  adotam  a  diversidade  no  ingresso  dos \nestudantes h\u00e1 bastante tempo\u201d.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id378",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "(i) final de el\u00e9trons; (ii) fanerozoico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id379",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "representa uma hist\u00f3ria paralela ligada a uma hist\u00f3ria \nprincipal.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id380",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "18, 9 e 9.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id381",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id382",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id383",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "2x + y = 3.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id384",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "1.600.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id385",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "ratifica  o  sentido  moral  do  prov\u00e9rbio,  uma  vez  que  o \nprotagonista \u00e9 seduzido pelos encantos da natureza e \npelos prazeres da bebida e do fumo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id386",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "todo o gelo derreteu e a temperatura de equil\u00edbrio \u00e9 20 \u00b0C.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id387",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "paradoxo, na medida em que prop\u00f5e retomar o passado \nnum contexto atual.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id388",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a rea\u00e7\u00e3o depende de um processo que concentre o\ncarbono para ocorrer.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id389",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "As mil\u00edcias, assim como o Estado, controlam a popula\u00e7\u00e3o e\nmant\u00eam a ordem em determinado territ\u00f3rio com o uso\nilegal da viol\u00eancia, da amea\u00e7a e da extors\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id390",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "da produ\u00e7\u00e3o e circula\u00e7\u00e3o de bens culturais por grupos \nsociais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id391",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Provocou  grav\u00edssima  queda  demogr\u00e1fica,  que  afetou \ngrande parte da produ\u00e7\u00e3o econ\u00f4mica europeia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id392",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "57 m/s e 68 m/s",
+    "stats": {}
+  },
+  {
+    "instance_id": "id393",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "4,0x10^(-1).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id394",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Paulina  Chiziane  apresenta  elementos  narrativos  que \npermitem  identificar  a  agress\u00e3o  psicol\u00f3gica  e  f\u00edsica \npraticada, pelo marido, contra a mulher.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id395",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "tempo e consequ\u00eancia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id396",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O uso de agrot\u00f3xicos no Brasil reduziu a necessidade \nde  aproveitamento  das  sementes  transg\u00eanicas  nos \ncultivos agr\u00edcolas de gr\u00e3os no pa\u00eds.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id397",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "uma contradi\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id398",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id399",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "o cristianismo se desenvolveu a partir do mundo rural,\nenquanto a religi\u00e3o mu\u00e7ulmana teve como base inicial as\ncidades e os povoados da pen\u00ednsula ar\u00e1bica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id400",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "i^(n+1)",
+    "stats": {}
+  },
+  {
+    "instance_id": "id401",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00e9 negado nos dois primeiros quartetos, uma vez que a \nconsequ\u00eancia da uni\u00e3o entre amador e coisa amada \u00e9 a \naus\u00eancia de desejo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id402",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "27 GJ.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id403",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "-6,00 x 10^6 J.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id404",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Esperteza; desconfian\u00e7a; foco.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id405",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "politico do romance, a respeito das condi\u00e7\u00f5es de vida dos Krah\u00f4.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id406",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id407",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "legitimam a viol\u00eancia social a que est\u00e3o submetidos os \npobres.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id408",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Ap\u00f3s destilados, eles se tornam resistentes \u00e0 degrada\u00e7\u00e3o, de forma que alcan\u00e7am todo o planeta, pela a\u00e7\u00e3o de correntes marinhas, inclusive as regi\u00f5es polares.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id409",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "duvida da pr\u00f3pria saudade, separando as lembran\u00e7as relati-\nvas ao passado daquele sentimento associado a elas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id410",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "vinculou\u2010se \u00e0 derrocada da aristocracia e \u00e0 ascens\u00e3o da\nburguesia, orientada pela pol\u00edtica mercantilista e\nsintetizada na filosofia de Adam Smith.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id411",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "no Novo Mundo por pessoas de uma mesma etnia que se \nreconheciam como iguais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id412",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "n-Butano,  por  estar  gasoso  em -6 \u00b0C  e,  dentre  as \nsubst\u00e2ncias gasosas nessa temperatura, sua combust\u00e3o \nfornecer mais calor por volume de g\u00e1s.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id413",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a conquista romana caracterizou-se por uma forte ofensiva\nfrente \u00e0 cultura helen\u00edstica, impondo a l\u00edngua latina e\ncerceando as escolas filos\u00f3ficas gregas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id414",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id415",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id416",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "livros  mais  caros,  instabilidade  nas  vendas, \nenfraquecimento das editoras, expans\u00e3o das publica\u00e7\u00f5es.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id417",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a manipula\u00e7\u00e3o digital das imagens exibidas pelos usu\u00e1rios \ndo TikTok.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id418",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Ouri\u00e7o-do-mar e mexilh\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id419",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a falta de acuidade visual n\u00e3o lhe permite distinguir as \n\u00e9pocas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id420",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "havia sido preterida no seio da pr\u00f3pria fam\u00edlia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id421",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "esporos haploides que germinam e colonizam o ambiente.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id422",
+    "train_trial_index": 0,
+    "predicted_text": "E",
+    "base64_images": [],
+    "mapped_output": "A ruptura do preconceito para com o trabalho feminino\nnas f\u00e1bricas, com\u00e9rcio, servi\u00e7o p\u00fablico e profiss\u00f5es liberais\nse deu efetivamente ap\u00f3s a conquista dos direitos\npol\u00edticos pelas mulheres, em 1934.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id423",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u00e0 na\u00e7\u00e3o na It\u00e1lia rec\u00e9m-unificada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id424",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u201cOs assaltantes desceram r\u00e1pido. Maria olhou saudosa e \ndesesperada para o primeiro. (...) Algu\u00e9m gritou que aquela \nputa safada l\u00e1 da frente conhecia os assaltantes (...). A primeira voz, a que acordou a coragem de todos, (...) levantou \ne se encaminhou em dire\u00e7\u00e3o \u00e0 Maria (...)\u201d (p. 41-42).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id425",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id426",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "5,2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id427",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Rtststr  (JJ,  Ulisses)  e  quinculinculim  (GR,  No \nUrubuquaqu\u00e1, no Pinh\u00e9m).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id428",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id429",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "breaks.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id430",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Lembrar e esquecer s\u00e3o dois aspectos insepar\u00e1veis da \nestrutura dram\u00e1tica da pe\u00e7a. Se a imagem refletida no \nlago n\u00e3o se assemelha \u00e0 pessoa que a contempla, as \npalavras, por sua vez, garantem a conex\u00e3o entre o eu \ne a realidade exterior.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id431",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A repara\u00e7\u00e3o dos crimes cometidos pelas ditaduras militares \ndos estados membros do Mercosul se tornou poss\u00edvel com \na cria\u00e7\u00e3o de inst\u00e2ncias jur\u00eddicas supranacionais que julgam \nviola\u00e7\u00f5es contra a humanidade.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id432",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id433",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "68, 68, 32.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id434",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id435",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u00e0 desigual condi\u00e7\u00e3o clim\u00e1tica para produ\u00e7\u00e3o de vinhos nos dois continentes.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id436",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O poema tematiza a revolta dos imigrantes camponeses\nitalianos ao chegarem nas fazendas de caf\u00e9.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id437",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A destina\u00e7\u00e3o de recursos para a constru\u00e7\u00e3o de um\ncemit\u00e9rio p\u00fablico confere dignidade aos mortos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id438",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id439",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "o  tempo  existente  para  analisar  os  produtos  de  uma \nrea\u00e7\u00e3o  depende  apenas  da  quantidade  de  produtos \nformada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id440",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id441",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "3/10.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id442",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "3,20 x 10^1 atm.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id443",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "(i) linfonodos; (ii) epitelial; (iii) v\u00edrus; (iv) sistema nervoso cen-\ntral.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id444",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id445",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Apenas a afirma\u00e7\u00e3o II \u00e9 verdadeira.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id446",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id447",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u201capesar de tudo\u201d, na pen\u00faltima linha, retoma o que a \nautora denomina \u201cimp\u00e9rio da cafonice\u201d.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id448",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id449",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "10 mA.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id450",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "I - um distanciamento do Brasil em rela\u00e7\u00e3o \u00e0 posi\u00e7\u00e3o de  Israel  e  uma  aproxima\u00e7\u00e3o  em  rela\u00e7\u00e3o  aos palestinos.\nII um potencial distanciamento do Brasil emrela\u00e7\u00e3o \u00e0 posi\u00e7\u00e3o  da  maioria  dos  pa\u00edses  do  Conselho  de Seguran\u00e7a da ONU.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id451",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "lei de Terras de 1850; na ocasi\u00e3o, foram demarcados \nos  territ\u00f3rios  rurais  quilombolas,  uma  vez  que  n\u00e3o \nhavia trabalho para homens negros e mulheres negras \nnas cidades.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id452",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "900 MeV.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id453",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "provocou muta\u00e7\u00f5es dominantes relacionadas aos super-\npoderes nas c\u00e9lulas germinativas do Pantera Negra.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id454",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "ao trauma coletivo das pol\u00edticas repressivas e crimes de \nEstado  praticados  pelos  regimes  ditatoriais  latino-\namericanos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id455",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id456",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "deriva\u00e7\u00e3o prefixal.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id457",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O livro de Stella do Patroc\u00ednio que narra as hist\u00f3rias de mu-\nlheres v\u00edtimas de viol\u00eancia manicomial, abandonadas pelo \nEstado.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id458",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id459",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id460",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O Senado, composto por not\u00e1veis, apoiava a\ncentraliza\u00e7\u00e3o do poder nas m\u00e3os do Imperador. A nova\nestrutura pol\u00edtica do Imp\u00e9rio permitia a mobilidade da\nadministra\u00e7\u00e3o p\u00fablica representada pelo Imperador.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id461",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "atraiu  pessoas  pobres  do  sert\u00e3o  nordestino  com \nmensagens de f\u00e9 e de acolhimento na comunidade.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id462",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "constituem sistemas usados livremente pelas\nsociedades em busca de projetos emancipat\u00f3rios,\nampliando os conflitos e as disputas pol\u00edticas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id463",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "(i) atingir a medula espinhal e introduzir nos neur\u00f4nios\na c\u00f3pia normal do gene; (ii) da prote\u00edna essencial \u00e0\nfun\u00e7\u00e3o dos neur\u00f4nios da medula; (iii) os m\u00fasculos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id464",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "V = 1,6 \u00b7 P",
+    "stats": {}
+  },
+  {
+    "instance_id": "id465",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "aumenta a produ\u00e7\u00e3o de urina, resultando na\ndiminui\u00e7\u00e3o da concentra\u00e7\u00e3o de medicamentos nas\namostras, o que dificulta sua detec\u00e7\u00e3o nos testes\nantidoping.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id466",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "3,6x10^16 km.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id467",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "9,0 cm",
+    "stats": {}
+  },
+  {
+    "instance_id": "id468",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id469",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id470",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id471",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Entre os opostos, \u00e9 poss\u00edvel inferir uma rela\u00e7\u00e3o principal \nde exclus\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id472",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "11 cm.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id473",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "grande e seu pKa deve estar abaixo da faixa de pH do refrigerante.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id474",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "No Segundo Reinado, com a intensa crise na obten\u00e7\u00e3o \nde  escravizados  para  as  planta\u00e7\u00f5es  de  caf\u00e9  e  a \n \nacirrada disputa na defini\u00e7\u00e3o das pol\u00edticas migrat\u00f3rias, \nos cafeicultores redefiniram seu capital simb\u00f3lico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id475",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "pela ado\u00e7\u00e3o de pol\u00edticas que restringem a fluidez dos\ncapitais e distribuem mais equitativamente a riqueza.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id476",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O processo de independ\u00eancia dos Estados Unidos foi\nconsumado pela reda\u00e7\u00e3o de uma Constitui\u00e7\u00e3o, cuja\nelabora\u00e7\u00e3o ficou a cargo de not\u00e1veis, que representavam os\ninteresses das classes propriet\u00e1rias.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id477",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "2,1 x 1013 W.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id478",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id479",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "I - Aumento de curto prazo da fertilidade do solo \npela deposi\u00e7\u00e3o de cinzas. \nII - Perda de biodiversidade devido \u00e0 remo\u00e7\u00e3o da vegeta\u00e7\u00e3o. \nIII - Aumento tempor\u00e1rio da evapora\u00e7\u00e3o da \u00e1gua da \nchuva que atinge o solo exposto.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id480",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O g\u00eanero pornochanchada pode ser considerado um\nmovimento de contracultura por seu car\u00e1ter de\ncontesta\u00e7\u00e3o pol\u00edtica, atrav\u00e9s da linguagem chula, e por\nsuas estreitas conex\u00f5es com produtores culturais\nligados \u00e0 Tropic\u00e1lia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id481",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id482",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Sustentabilidade na pesquisa de novos protocolos para agricultura tradicional.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id483",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "da implanta\u00e7\u00e3o de formas racionais de organiza\u00e7\u00e3o do \ntrabalho.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id484",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "n\u00e3o teve sua popula\u00e7\u00e3o afetada, pois o efeito da lama t\u00f3xica\nse deu sobre o primeiro n\u00edvel tr\u00f3fico da cadeia e n\u00e3o sobre\no segundo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id485",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "36.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id486",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A ep\u00edgrafe justifica o t\u00edtulo do conto e comenta os poss\u00edveis \nsentidos cr\u00edticos dele.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id487",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "mostra sua admira\u00e7\u00e3o por uma mulher que, para ele, \nencarna a beleza em sua ess\u00eancia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id488",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id489",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "somente horm\u00f4nios masculinos, sendo que degrada melhor \no estrog\u00eanio.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id490",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id491",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id492",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id493",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "150%.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id494",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "200,00.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id495",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "164 g; a rela\u00e7\u00e3o estequiom\u00e9trica C2H6O:O2 \u00e9 de 1:3.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id496",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id497",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\ud835\udc4e = 1\u20442.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id498",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "As sociedades africanas eram organizadas a partir de\npequenas tribos lideradas por chefes guerreiros, o que\ngerava fragmenta\u00e7\u00e3o pol\u00edtica e guerras, inviabilizando\nnesse continente a forma\u00e7\u00e3o de unidades pol\u00edticas\ncomplexas nos moldes europeus.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id499",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id500",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "s\u00e3o  medidas  deliberativas  e  os  pa\u00edses  signat\u00e1rios \npagar\u00e3o multas pelo descumprimento das metas; os \nEUA  n\u00e3o  aceitam  o  papel  da  ONU  na  fun\u00e7\u00e3o  de \nagente fiscalizador.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id501",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "volta-se nost\u00e1lgica para as imagens de uma lembran\u00e7a.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id502",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "instiga no leitor uma atitude reflexiva diante do mundo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id503",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "efeito cascata, mercado editorial, crise, queda de vendas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id504",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id505",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "no retrato das emo\u00e7\u00f5es de animais usados em experimentos \nem laborat\u00f3rios.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id506",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u201cLugar sert\u00e3o se divulga: \u00e9 onde os pastos carecem de \nfechos; onde um pode torar dez, quinze l\u00e9guas, sem \ntopar com casa de morador; e onde criminoso vive seu \ncristo-jesus,  arredado  do  arrocho  de  autoridade.\u201d \n(Guimar\u00e3es Rosa)",
+    "stats": {}
+  },
+  {
+    "instance_id": "id507",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "As  atividades  da  greve  de  1917  unificaram  os \ninteresses  de  imigrantes  asi\u00e1ticos  e  europeus  no \ncampo e na cidade.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id508",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "envolve o uso de softwares (malwares) e programas\nrob\u00f4s para invadir redes sociais e computadores, mas\nnunca interferiu em processos eleitorais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id509",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Desde as diferentes civiliza\u00e7\u00f5es da Antiguidade at\u00e9 o\npresente, os conhecimentos matem\u00e1ticos e filos\u00f3ficos\nt\u00eam se demonstrado incompat\u00edveis, corroborando as\nconclus\u00f5es do texto. Pit\u00e1goras, por exemplo,\nconsiderava que o cosmo, descrito de forma filos\u00f3fica,\nera regido por rela\u00e7\u00f5es matem\u00e1ticas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id510",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "no processo de forma\u00e7\u00e3o da urbe romana e de edifica\u00e7\u00e3o\nde entradas defensivas contra invas\u00f5es de povos\nconsiderados b\u00e1rbaros.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id511",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "As d\u00e9cadas que nos separam da queda do Muro de\nBerlim e do fim da Guerra Fria representam um\nper\u00edodo de continuidade das formas e demandas\npol\u00edticas no plano internacional e de manuten\u00e7\u00e3o da\ncartografia mundial.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id512",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Segundo Ari\u00e8s, o drama da salva\u00e7\u00e3o se d\u00e1 na imagem\ndo quarto do moribundo. Essa imagem \u00e9 decisiva para\na compreens\u00e3o do terceiro serm\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id513",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O  processo  de  fortalecimento  dos  movimentos \nsindicais enfrentou um forte aparato repressivo, nos \nanos  de  1920,  marcado  pela  colabora\u00e7\u00e3o  entre  os \nEstados latino-americanos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id514",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "uma met\u00e1fora, pois iguala toda a informa\u00e7\u00e3o gen\u00e9tica\ne os mecanismos moleculares subjacentes ao\nfuncionamento e express\u00e3o dos genes com as\ninstru\u00e7\u00f5es e os comandos de um programa.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id515",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "D_f e D_g diferem em mais de um ponto, I_f e I_g diferem em\napenas um ponto.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id516",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "alimenta as aspira\u00e7\u00f5es humanas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id517",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Barreira formada no mar e localizada pr\u00f3xima da praia, \npodendo ser formada por rochas, corais e restos de \nanimais marinhos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id518",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id519",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "compara o ouvintismo a outros preconceitos e lista a\u00e7\u00f5es a \nserem tomadas ao lidar com pessoas surdas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id520",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "A cria\u00e7\u00e3o do SUS aconteceu no contexto de reabertura \npol\u00edtica e da expans\u00e3o democr\u00e1tica que sucedeu ao \nregime  militar.  O  seu  funcionamento  mostra  as \ndificuldades de financiamento da sa\u00fade p\u00fablica entre \nas d\u00e9cadas de 1990 e 2000.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id521",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "revelam mais prest\u00edgio em fun\u00e7\u00e3o de seu pouco uso e\nde sua dupla acentua\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id522",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a reitera\u00e7\u00e3o de um mesmo tipo de frase no final de cada \nestrofe acentua o idealismo e a rememora\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id523",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Motion, force, impressed, straight, continuous, discrete.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id524",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "A  ma\u00e7\u00e3  mais  pesada  possui  o  qu\u00e1druplo  da  energia \ncin\u00e9tica da ma\u00e7\u00e3 mais leve.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id525",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "realista,  porque  as  imagens  da  noite,  do  luar  e  do \nalvorecer indicam precisamente a passagem do tempo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id526",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id527",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a  instaura\u00e7\u00e3o  da  Rep\u00fablica  de  Cromwell  e  do \nparlamentarismo,  em  meados  do  s\u00e9culo  XVIII,  foi \nrespons\u00e1vel  pelo  fim  das  turbul\u00eancias  pol\u00edticas \ncaracter\u00edsticas do absolutismo mon\u00e1rquico.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id528",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Promover a multiplica\u00e7\u00e3o de esporozo\u00edtos no f\u00edgado,\nreduzindo o n\u00famero de gamet\u00f3citos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id529",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id530",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "foi institu\u00edda no processo da Revolu\u00e7\u00e3o Francesa e norteou\nos movimentos feministas, sufragistas e oper\u00e1rios no\ndecorrer do s\u00e9culo XIX.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id531",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Trata-se  de  um  conflito  resultante  da  disputa  entre \ndiferentes grupos religiosos, que resultou na morte de \nmais de 800 mil Hutus e Tutsis.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id532",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "condi\u00e7\u00e3o e nega\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id533",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A corrente mar\u00edtima das Falkland (Malvinas), que margeia a \ncosta brasileira at\u00e9 o litoral da regi\u00e3o nordeste, com \u00e1guas \nfrias em superf\u00edcie, potencializou a dispers\u00e3o do petr\u00f3leo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id534",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Os colonizadores introduziram no territ\u00f3rio colonial novas \nesp\u00e9cies de mandioca e milho, que desequilibraram o \nsistema agr\u00edcola amer\u00edndio, baseado no sistema rotativo \nde planta\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id535",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "as povoa\u00e7\u00f5es que constitu\u00edam Palmares se originaram da \nestrutura urban\u00edstica constru\u00edda por Nassau nas serras de \nPernambuco e Alagoas, a partir da racionalidade holandesa \nna \u00e9poca da luta pelo dom\u00ednio do a\u00e7\u00facar.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id536",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "refuta o preconceito e confirma o desconhecimento da\nregra de forma\u00e7\u00e3o do partic\u00edpio passado do verbo \u201cse\namostrar\u201d.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id537",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id538",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "m\u00edstico entendimento; biol\u00f3gico; invenc\u00edvel.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id539",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id540",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "principalmente por contato sexual; o controle da infec\u00e7\u00e3o \ninclui a preven\u00e7\u00e3o pela vacina\u00e7\u00e3o contra os HPV 16 e 18, \nsendo indicada antes da exposi\u00e7\u00e3o ao v\u00edrus.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id541",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "9,25",
+    "stats": {}
+  },
+  {
+    "instance_id": "id542",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "1,8X10^6 J.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id543",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "desafios atuais em meio ambiente e sa\u00fade s\u00e3o globais e \nsolu\u00e7\u00f5es dependem da ades\u00e3o de cada pa\u00eds aos protocolos \ninternacionais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id544",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "energia mec\u00e2nica em el\u00e9trica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id545",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "gravidade de burnout nas condi\u00e7\u00f5es atuais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id546",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Os esportes s\u00e3o uma forma de representa\u00e7\u00e3o das pr\u00e1ticas \nsociais.  Sendo  assim,  as  transforma\u00e7\u00f5es  sociais  podem \nresultar  em  altera\u00e7\u00f5es  de  regras  esportivas,  na \nesportiviza\u00e7\u00e3o de pr\u00e1ticas de lazer e at\u00e9 na extin\u00e7\u00e3o de \nmodalidades esportivas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id547",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Somente as afirma\u00e7\u00f5es ll e Ill s\u00e3o corretas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id548",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A independ\u00eancia era entendida pelos ind\u00edgenas como uma \namea\u00e7a a Dom Jo\u00e3o VI, s\u00edmbolo da na\u00e7\u00e3o brasileira.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id549",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "ambos guardam uma dimens\u00e3o transcendente e cat\u00f3lica, \nde origem mineira.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id550",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "2x",
+    "stats": {}
+  },
+  {
+    "instance_id": "id551",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "III.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id552",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "22 mm.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id553",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "o  plantio  de  esp\u00e9cies  ex\u00f3ticas  que  apresentam \ncrescimento  r\u00e1pido  e  podem  reduzir  os  efeitos  da \ndesertifica\u00e7\u00e3o e da seca, como o eucalipto, por exemplo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id554",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a  percep\u00e7\u00e3o  das  diferen\u00e7as  sociais  durante  todo  o \nImp\u00e9rio Romano, materializadas nas habita\u00e7\u00f5es, e a \nbusca  por  moradias  mais  belas  e  espa\u00e7osas  para \ntodos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id555",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "menor que o da \u00e1gua pura, observando-se, no entanto,\nque a temperatura de ebuli\u00e7\u00e3o da solu\u00e7\u00e3o \u00e9 maior.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id556",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "defende a possibilidade de conflitos entre advers\u00e1rios, \nmas n\u00e3o admite a l\u00f3gica antagon\u00edstica da aniquila\u00e7\u00e3o e \nexclus\u00e3o do inimigo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id557",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "I e II.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id558",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a alus\u00e3o ao slogan anterior afasta o p\u00fablico jovem e\nprovoca a perda de seu poder persuasivo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id559",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "3,0 x 10^7 J.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id560",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "|\ud835\udc5d| = 2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id561",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O custo relativo do frete dos metais preciosos viabilizou a\ninterioriza\u00e7\u00e3o da coloniza\u00e7\u00e3o portuguesa.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id562",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a neutralidade \u00e9 a chave de sua defini\u00e7\u00e3o, j\u00e1 que,\nentre o falso e o verdadeiro, est\u00e1 o posicionamento\nsocial neutro.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id563",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "habilidade pol\u00edtica do pregador.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id564",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "coletivas, concedidas para uso misto das popula\u00e7\u00f5es ind\u00edge-\nnas e quilombolas, que exploram comercialmente as rique-\nzas existentes com atividades extrativistas e agropecu\u00e1ria. \nAumentam no entorno das RESEX n\u00facleos urbanos e ativi-\ndades de explora\u00e7\u00e3o madeireira.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id565",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id566",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "2\u20443.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id567",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id568",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "rea\u00e7\u00e3o dos intelectuais refrat\u00e1rios ao regime comunista que\npretendia restaurar o mandarinato.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id569",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Escassez de recursos naturais, alto desenvolvimento\ntecnol\u00f3gico e diversidade \u00e9tnica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id570",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "incompatibilidade \u00e9tnica entre ele e Sem Medo, por pertencerem a linhagens diferentes, e supera\u00e7\u00e3o de sua hostilidade tribal.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id571",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "C, B, A.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id572",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id573",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A Tropa de Prote\u00e7\u00e3o (SS), que foi uma organiza\u00e7\u00e3o para militar incumbida de organizar as manifesta\u00e7\u00f5es de massa em apoio ao nazismo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id574",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "fen\u00f4meno \u2013 momento \u2013 mania \u2013 febre",
+    "stats": {}
+  },
+  {
+    "instance_id": "id575",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "5/x",
+    "stats": {}
+  },
+  {
+    "instance_id": "id576",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u201cEntendo como a op\u00e7\u00e3o 2. Para que eu entendesse \ncomo  op\u00e7\u00e3o  1,  deveria  ser:  'como  todo  leonino,  \u00e9 \nvaidoso', ou algo do tipo.\u201d",
+    "stats": {}
+  },
+  {
+    "instance_id": "id577",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id578",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "30.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id579",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "as eficazes estrat\u00e9gias de apoio aos estudantes pobres \npara  assegurar  a  boa  qualidade  da  educa\u00e7\u00e3o  b\u00e1sica  e \nsuperior na \u00e9poca do apartheid.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id580",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "por insetos que transferem p\u00f3len do estigma para o\nestame nas eudicotiled\u00f4neas mencionadas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id581",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Cop\u00e9rnico, Kepler e Galileu foram perseguidos pela\nIgreja Cat\u00f3lica do per\u00edodo Moderno, por representarem\no questionamento dos ideais medievais sobre a\norganiza\u00e7\u00e3o do c\u00e9u e da Terra e sobre a onipresen\u00e7a\ndivina. O conceito de \u00f3rbitas circulares para o\nmovimento dos planetas em torno do Sol, para as\nquais a dist\u00e2ncia entre o planeta e o Sol \u00e9 vari\u00e1vel\ndurante o movimento, foi abandonado por Kepler.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id582",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "melhoram  a  avalia\u00e7\u00e3o  dos  restaurantes  pela  imprensa \nespecializada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id583",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\"A conclus\u00e3o, portanto, \u00e9 que h\u00e1 duas for\u00e7as capitais: o\namor, que multiplica a esp\u00e9cie, e o nariz, que a subordina\nao indiv\u00edduo\".",
+    "stats": {}
+  },
+  {
+    "instance_id": "id584",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O gene da prote\u00edna de resist\u00eancia antibi\u00f3tica \u00e9\ntransferido atrav\u00e9s da fus\u00e3o transmembrana na\npresen\u00e7a de tetraciclina.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id585",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\"deleitura\" e \"namorido\".",
+    "stats": {}
+  },
+  {
+    "instance_id": "id586",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A  Lei  de  Seguran\u00e7a  Nacional  criou  instrumentos \njur\u00eddicos  que  possibilitavam  a  criminaliza\u00e7\u00e3o  de \nden\u00fancias contra o racismo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id587",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a  ignor\u00e2ncia  ratificada  do  povo  em  sua  luta  para  se \nexpressar.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id588",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a rejei\u00e7\u00e3o a questionamentos impede que se admitam \npontos de vista antag\u00f4nicos, em raz\u00e3o da tend\u00eancia de se \nconfirmar cren\u00e7as pessoais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id589",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O contraste entre os verbos \"chupar\" e \"sorver\",\nempregados no primeiro trecho, revela o rebaixamento de\nlinguagem buscado pelo escritor em Iracema.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id590",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id591",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Aspecto positivo: Aumento do valor nutricional do milho. Aspecto negativo: Possibilidade de desenvolvimento de alergia \u00e0 prote\u00edna Cry em pessoas vulner\u00e1veis.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id592",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Mudan\u00e7a clim\u00e1tica, altera\u00e7\u00e3o da cobertura vegetal e perda \nde biodiversidade em grande escala s\u00e3o marcas da huma-\nnidade no Planeta desde as expans\u00f5es mar\u00edtimas do s\u00e9culo \nXVI, sendo pouco preocupantes para as ci\u00eancias.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id593",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "adquirido por D. Pedro II em 1876, foi incorporado \u00e0 sua \ncole\u00e7\u00e3o  pessoal,  a  mesma  que  deu  origem  ao  Museu \nNacional no per\u00edodo republicano.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id594",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id595",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A fita de RNA \u00e9 formada por nucleot\u00eddeos que cont\u00eam \nribose, a\u00e7\u00facar e fosfato, e, em contato com sab\u00e3o e \n\u00e1gua, t\u00eam sua capacidade de integra\u00e7\u00e3o ao DNA da \nc\u00e9lula humana bloqueada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id596",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Seus par\u00e2metros produtivos estavam fundados, desde sua\norigem, em preservar e proteger a biodiversidade nas \u00e1reas\nde cultivo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id597",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "aumenta a propor\u00e7\u00e3o 12C/14C na atmosfera em rela\u00e7\u00e3o \u00e0\nencontrada no per\u00edodo pr\u00e9-industrial.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id598",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "\u221c2\u221c3.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id599",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Marcas  de  oralidade,  uso  expressivo  de  recursos \nortogr\u00e1ficos, subjetividade do autor.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id600",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "pterid\u00f3fita.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id601",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "o comando externo da produ\u00e7\u00e3o vinculado aos mercados \ninternacionais torna as fronteiras regionais est\u00e1veis e duradouras na escala do territ\u00f3rio nacional.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id602",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id603",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "am\u00f4nia, \u00e1cido \u00farico e am\u00f4nia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id604",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A Rel\u00edquia e Sagarana.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id605",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "tem  exatamente  3  pontos,  sendo  dois  no  primeiro \nquadrante e outro no segundo quadrante.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id606",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "descri\u00e7\u00e3o  cient\u00edfica  que  o  eu  l\u00edrico  faz  do  corpo \nfeminino recorrendo a fen\u00f4menos da natureza.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id607",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\"im\u00f3vel\" em \u201cO palha\u00e7o jazia im\u00f3vel (...)\u201d",
+    "stats": {}
+  },
+  {
+    "instance_id": "id608",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id609",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "indica a submiss\u00e3o dos moradores de uma cidade aos\ninteresses ocultos de uma administra\u00e7\u00e3o que promove,\nno espa\u00e7o urbano, a vida cotidiana.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id610",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "O  conflito  resultou  das  disputas  comerciais  e  militares \nentre  a  Liga  de  Delos,  liderada  pela  cidade-estado  de \nAtenas, e os interesses ass\u00edrios.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id611",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id612",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O  sistema  centro/periferia  \u00e9  aplic\u00e1vel  ao  estudo  da \nCristandade Medieval, j\u00e1 que os feudos constitu\u00edam o \ncentro da vida econ\u00f4mica e cultural naquele contexto.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id613",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "2,0 x 105 J",
+    "stats": {}
+  },
+  {
+    "instance_id": "id614",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "da altura de um poste.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id615",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "criar\u00e1 uma nova esp\u00e9cie de planta resistente a herbicidas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id616",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "2,0 mg/kg",
+    "stats": {}
+  },
+  {
+    "instance_id": "id617",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "I A energia solar incide na atmosfera em\ncomprimentos de onda menores e \u00e9 refletida\nem comprimentos de onda maiores.\nII Destrui\u00e7\u00e3o de florestas nativas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id618",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "3,125x10^-1 km/h^2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id619",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id620",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id621",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a ternura que lhe inspira a mulher, capaz de toda abnega\u00e7\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id622",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Entre 66% e 75%.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id623",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "concord\u00e2ncia, pois o autor apoia a mesma linha de\npensamento de Milton quanto \u00e0s cr\u00edticas ao controle da\nliberdade de imprensa.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id624",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Uma idosa chinesa, seu marido, sua filha e seu \ngenro quase provocaram um acidente a\u00e9reo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id625",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A hist\u00f3ria da s\u00edfilis teve longa dura\u00e7\u00e3o na Euro-am\u00e9rica. \nO  medo  da  doen\u00e7a  contribuiu  para  a  forma\u00e7\u00e3o  e  o \nfortalecimento  de  pol\u00edticas  de  repress\u00e3o  racial,  que \nincidiam nos corpos dos sujeitos sociais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id626",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00e0 posi\u00e7\u00e3o de independ\u00eancia de D. Jo\u00e3o VI em rela\u00e7\u00e3o \u00e0s\npress\u00f5es da Santa Alian\u00e7a para que interviesse nas guerras\ndo rio da Prata.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id627",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id628",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "fatos hist\u00f3ricos para tra\u00e7ar a origem da explora\u00e7\u00e3o de povos \nind\u00edgenas e o modo como foram violentamente desumanizados na s\u00e9rie.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id629",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "o m\u00e9rito e o esfor\u00e7o individual podem ser isolados das divis\u00f5es de classe, g\u00eanero e ra\u00e7a e considerados como par\u00e2metros justos para a din\u00e2mica da vida social.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id630",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id631",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a alta produtividade ecossist\u00eamica e o potencial de\nexplora\u00e7\u00e3o para a ind\u00fastria madeireira.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id632",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id633",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "um comprimido em uma \u00fanica dose.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id634",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "no realismo moral do povo portugu\u00eas, resultado da era \ndas  grandes  navega\u00e7\u00f5es  e  da  expans\u00e3o  do \ncatolicismo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id635",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Para os gregos, a liberdade dos homens era exercida \nna  polis  e  estava  relacionada  \u00e0  capacidade  de \ninven\u00e7\u00e3o da pol\u00edtica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id636",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "da grande presen\u00e7a de popula\u00e7\u00f5es n\u00e3o nativas, que n\u00e3o \nt\u00eam tradi\u00e7\u00e3o em lidar com eventos dessa natureza.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id637",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u201cAconteceu  logo  na  manh\u00e3  deste  domingo,  quando \niniciei uma ranked.\u201d",
+    "stats": {}
+  },
+  {
+    "instance_id": "id638",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00c9 uma fun\u00e7\u00e3o sint\u00e1tica preenchida pelo pronome \"que\"\n(L. 12).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id639",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id640",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "menor extens\u00e3o territorial e alta densidade demogr\u00e1fica fo-\nram respons\u00e1veis pela maior emiss\u00e3o de CO2  decorrente da \ninstala\u00e7\u00e3o de novas ind\u00fastrias de bens de capital.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id641",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\ud835\udc41\ud835\udc34\ud835\udc34 +\ud835\udc41\ud835\udc34a",
+    "stats": {}
+  },
+  {
+    "instance_id": "id642",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "490 mg/kg.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id643",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A maior concentra\u00e7\u00e3o dos corti\u00e7os da cidade de S\u00e3o Paulo,\npresentes no \u00faltimo quartel do s\u00e9culo XIX, localizava-se na\npor\u00e7\u00e3o mais central da aglomera\u00e7\u00e3o urbana.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id644",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\u00e9 diretamente proporcional \u00e0 utiliza\u00e7\u00e3o crescente de\npetr\u00f3leo (plantas fossilizadas) nos Estados Unidos e\nna China no s\u00e9culo XIX, o que propiciou o\ndesenvolvimento de novos equipamentos, tecnologias\ne organiza\u00e7\u00f5es no mundo do trabalho.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id645",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "uma defesa da natureza.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id646",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id647",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "ancestral metazo\u00e1rio comum e manuten\u00e7\u00e3o do gene em to-\ndos os metazo\u00e1rios marinhos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id648",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "FeO3 + AI -> Fe + AIO3; H = +852 kJ mol^(-1)",
+    "stats": {}
+  },
+  {
+    "instance_id": "id649",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id650",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\"ser\u00e1 que h\u00e1 mesmo\" e \"acordaria feliz\" sugerem d\u00favida.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id651",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "5,0x10^-5.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id652",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "adequa\u00e7\u00e3o \u00e0 forma anal\u00edtica da voz passiva.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id653",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "s\u00e3o  desenvolvidas  segundo  normas  prescritas  em \nconven\u00e7\u00f5es internacionais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id654",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "2,7x10^11 J.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id655",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Mais que 12 e menos que 14 anos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id656",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Bruna andou de patins.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id657",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Para bom entendedor, meia palavra basta.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id658",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id659",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "I\u2010protozo\u00e1rio; II\u2010artr\u00f3pode; III\u2010picada de barbeiro.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id660",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "As tens\u00f5es iniciaram-se no final de d\u00e9cada de 1970, em \ndecorr\u00eancia  das  mudan\u00e7as  pol\u00edticas  e  econ\u00f4micas \nperpetradas pelo ent\u00e3o presidente chin\u00eas Deng Xiaoping, \nque  resultaram  na  declara\u00e7\u00e3o  de  independ\u00eancia  de \nTaiwan em rela\u00e7\u00e3o \u00e0 China.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id661",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "III.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id662",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Os narradores e os protagonistas s\u00e3o crian\u00e7as.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id663",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A maior produ\u00e7\u00e3o em terra prov\u00e9m do Estado do Rio\nGrande do Norte e, em mar, do pr\u00e9-sal situado entre\nos Estados de S\u00e3o Paulo e Rio de Janeiro.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id664",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "I, III e IV, apenas.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id665",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "a^2 - bc = b^2 +c^2.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id666",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "negam haver diferen\u00e7a qu\u00edmica entre o a\u00e7\u00facar cristal e o a\u00e7\u00facar mascavo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id667",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "M\u00e1rio contrap\u00f5e-se \u00e0 censura materna com desd\u00e9m \npela fam\u00edlia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id668",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id669",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00e1gua e NADPH.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id670",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Os carpelos originam o ov\u00e1rio, que se transforma nos \ncotil\u00e9dones (2n) e na casca da semente.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id671",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Na  Roma  Antiga,  durante  o  per\u00edodo  republicano,  a \nditadura era uma magistratura de car\u00e1ter extraordin\u00e1rio, \ndelimitada  legalmente  e  estabelecida  por  um  per\u00edodo \ndeterminado, com uma finalidade definida.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id672",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "P1  < P2  < P3",
+    "stats": {}
+  },
+  {
+    "instance_id": "id673",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "acelerou a extin\u00e7\u00e3o de formas de ac\u00famulo de capital mercantil em escala global, substituindo-o pelo capital industrial e financeiro.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id674",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id675",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u201cA  nossa  solu\u00e7\u00e3o  foi  med\u00edocre.  Estragou  as  duas  ra\u00e7as, \nfundindo-as. O negro perdeu as suas admir\u00e1veis qualidades \nf\u00edsicas de selvagem, e o branco sofreu a inevit\u00e1vel piora de \ncar\u00e1ter, consequente a todos os cruzamentos entre ra\u00e7as \nd\u00edspares\".  (Personagem Miss Jane, do livro O Presidente Negro, de Monteiro \nLobato. S\u00e3o Paulo: Editora Lafonte, p. 82, 2019.)",
+    "stats": {}
+  },
+  {
+    "instance_id": "id676",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "1.310 mon\u00f4meros por mol\u00e9cula.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id677",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id678",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id679",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "600",
+    "stats": {}
+  },
+  {
+    "instance_id": "id680",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "O  Pantanal  tem  clima  uniforme  e  n\u00e3o  apresenta \nuniformidade  nas  suas  caracter\u00edsticas  ed\u00e1ficas  e  na \nsua  fitofisionomia,  como  exige  o  conceito  de  bioma; \npor isso \u00e9 considerado um sistema complexo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id681",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Pterid\u00f3fitas, gimnospermas e angiospermas",
+    "stats": {}
+  },
+  {
+    "instance_id": "id682",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id683",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "I, III e IV.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id684",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id685",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id686",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "a constata\u00e7\u00e3o da fal\u00eancia cultural da It\u00e1lia, que se agarrou\nao passado romano e ignorou os grandes avan\u00e7os da\nPrimeira Revolu\u00e7\u00e3o Industrial.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id687",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "tanto Arist\u00f3teles quanto Epicuro \u2013 ainda que com concep\u00e7\u00f5es \u00e9ticas distintas \u2013 entendem que n\u00e3o h\u00e1 uma identifica\u00e7\u00e3o imediata entre felicidade e prazer.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id688",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "os privil\u00e9gios concentravam-se nas m\u00e3os dos senhores de \nengenho,  em  detrimento  da  popula\u00e7\u00e3o  escravizada  ou \nlivre e pobre.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id689",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "afirmam os sentimentos de autonomia e autossufici\u00eancia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id690",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Os pol\u00edticos preteridos s\u00e3o aqueles que acabam\nvencendo as elei\u00e7\u00f5es, por for\u00e7a de sua persist\u00eancia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id691",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id692",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id693",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id694",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A radia\u00e7\u00e3o reduz os tumores de animais e plantas,\naumentando a taxa de sobreviv\u00eancia desses seres\nvivos e, consequentemente, o tamanho de suas\npopula\u00e7\u00f5es e das de seus consumidores.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id695",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id696",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id697",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "0,05 m/s2",
+    "stats": {}
+  },
+  {
+    "instance_id": "id698",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id699",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "0,04%.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id700",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "os vadios viviam na ociosidade, o que provocava\npreocupa\u00e7\u00f5es constantes nos administradores coloniais.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id701",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id702",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "ao relacionamento dif\u00edcil com familiares e amigos.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id703",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "o 32\u00ba dia e o 38\u00ba dia.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id704",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "as mudan\u00e7as clim\u00e1ticas atribu\u00eddas ao fen\u00f4meno de\naquecimento global.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id705",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "com organiza\u00e7\u00e3o corporal polipoide s\u00e3o animais fixos \nao  substrato,  com  reprodu\u00e7\u00e3o  sexuada,  e  os  com \norganiza\u00e7\u00e3o  medusoide  correspondem  aos  animais \nm\u00f3veis, com reprodu\u00e7\u00e3o assexuada.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id706",
+    "train_trial_index": 0,
+    "predicted_text": "n\u00e3o",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id707",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "protagonista, pois, ao fazer parte da pr\u00f3pria narrativa,\nassemelha-se \u00e0s demais personagens e n\u00e3o pode\nduvidar dos protocolos necess\u00e1rios para contar a\nhist\u00f3ria de Portugal.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id708",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "resgata o antigo ideal da identidade nacional \u00fanica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id709",
+    "train_trial_index": 0,
+    "predicted_text": "sim",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id710",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "prop\u00f5em um rep\u00fadio por parte da juventude brasileira em \nrela\u00e7\u00e3o \u00e0s quest\u00f5es pol\u00edticas e comportamentais durante \na transi\u00e7\u00e3o democr\u00e1tica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id711",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A presen\u00e7a de negros nos ex\u00e9rcitos de Cortez \u00e9 um\nexemplo da aus\u00eancia de crit\u00e9rios discriminat\u00f3rios de\nlimpeza de sangue no processo de conquista da\nAm\u00e9rica espanhola, diferentemente do que ocorria nas\nAm\u00e9ricas portuguesa e inglesa.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id712",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "\"No rio ningu\u00e9m n\u00e3o anda\" (L. 10).",
+    "stats": {}
+  },
+  {
+    "instance_id": "id713",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "3,85x10^8 J.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id714",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "\u00e9 neutro ao figurar a vacuidade do presente.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id715",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "(1) Oeste catarinense; (2) ind\u00fastria frigor\u00edfica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id716",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "alterou-se ao longo da hist\u00f3ria do Brasil, por\u00e9m n\u00e3o\nconsolidou significativamente a atua\u00e7\u00e3o das mulheres na\npol\u00edtica.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id717",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "no citosol; cerveja e p\u00e3o.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id718",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "A experi\u00eancia do nheengatu desapareceu no processo\nde explora\u00e7\u00e3o da m\u00e3o de obra ind\u00edgena na Amaz\u00f4nia\ne em fun\u00e7\u00e3o da interfer\u00eancia da Coroa, que defendia o\nuso da l\u00edngua portuguesa.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id719",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "El Salvador, Honduras, Guatemala; os emigrantes\ndeslocam-se a p\u00e9 em grandes caravanas por ser mais\nseguro e para se beneficiarem de apoio m\u00fatuo.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id720",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A  part\u00edcula  viral  ativa  do  SARS-CoV-2  possui  no \ncaps\u00eddeo a prote\u00edna spike, que induz a produ\u00e7\u00e3o de \nant\u00edgenos pelo sistema imune.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id721",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "R$ 20,00",
+    "stats": {}
+  }
+]

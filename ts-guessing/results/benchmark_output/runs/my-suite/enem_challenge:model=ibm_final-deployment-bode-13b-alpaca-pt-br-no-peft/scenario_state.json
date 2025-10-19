@@ -1,0 +1,864 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+    "input_prefix": "Pergunta: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "chain_of_thought_prefix": "",
+    "chain_of_thought_suffix": "\n",
+    "output_prefix": "Resposta: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 10,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+    "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+    "temperature": 0.0,
+    "max_tokens": 1,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "Raios de luz solar est\u00e3o atingindo a superf\u00edcie de um lago formando um \u00e2ngulo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> com a sua superf\u00edcie, conforme indica a figura. Em determinadas condi\u00e7\u00f5es, pode-se supor que a intensidade luminosa desses raios, na superf\u00edcie do lago, seja dada aproximadamente por <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>k</mi><mo>&#xD7;</mo><mi>sin</mi><mfenced><mi>x</mi></mfenced></math> ,sendo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> uma constante, e supondo-se que <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> est\u00e1 entre 0\u00ba e 90\u00ba. \nQuando <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn><mo>&#xB0;</mo></math>, a intensidade luminosa se reduz a qual percentual de seu valor m\u00e1ximo? "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "33% "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "50% "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "57% "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "70% "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "86% "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id1149"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "33% ",
+        "B": "50% ",
+        "C": "57% ",
+        "D": "70% ",
+        "E": "86% "
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: Raios de luz solar est\u00e3o atingindo a superf\u00edcie de um lago formando um \u00e2ngulo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> com a sua superf\u00edcie, conforme indica a figura. Em determinadas condi\u00e7\u00f5es, pode-se supor que a intensidade luminosa desses raios, na superf\u00edcie do lago, seja dada aproximadamente por <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>k</mi><mo>&#xD7;</mo><mi>sin</mi><mfenced><mi>x</mi></mfenced></math> ,sendo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> uma constante, e supondo-se que <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> est\u00e1 entre 0\u00ba e 90\u00ba. \nQuando <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn><mo>&#xB0;</mo></math>, a intensidade luminosa se reduz a qual percentual de seu valor m\u00e1ximo? \nA. 33% \nB. 50% \nC. 57% \nD. 70% \nE. 86% \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 1.3819680213928223,
+        "request_datetime": 1753131218
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "O brasileiro tem no\u00e7\u00e3o clara dos comportamentos \u00e9ticos e morais adequados, mas vive sob o espectro da corrup\u00e7\u00e3o, revela pesquisa. Se o pa\u00eds fosse resultado dos padr\u00f5es morais que as pessoas dizem aprovar, pareceria mais com a Escandin\u00e1via do que com Bruzundanga (corrompida na\u00e7\u00e3o fict\u00edcia de Lima Barreto). FRAGA, P. Ningu\u00e9m \u00e9 inocente. Folha de S. Paulo. 4 out. 2009 (adaptado). \nO distanciamento entre \u201creconhecer\u201d e \u201ccumprir\u201d efetivamente o que \u00e9 moral constitui uma ambiguidade inerente ao humano, porque as normas morais s\u00e3o "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "decorrentes da vontade divina e, por esse motivo, ut\u00f3picas. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "par\u00e2metros idealizados, cujo cumprimento \u00e9 destitu\u00eddo de obriga\u00e7\u00e3o. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "amplas e v\u00e3o al\u00e9m da capacidade de o indiv\u00edduo conseguir cumpri-las integralmente. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "criadas pelo homem, que concede a si mesmo a lei \u00e0 qual deve se submeter. "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "cumpridas por aqueles que se dedicam inteiramente a observar as normas jur\u00eddicas. "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id233"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "decorrentes da vontade divina e, por esse motivo, ut\u00f3picas. ",
+        "B": "par\u00e2metros idealizados, cujo cumprimento \u00e9 destitu\u00eddo de obriga\u00e7\u00e3o. ",
+        "C": "amplas e v\u00e3o al\u00e9m da capacidade de o indiv\u00edduo conseguir cumpri-las integralmente. ",
+        "D": "criadas pelo homem, que concede a si mesmo a lei \u00e0 qual deve se submeter. ",
+        "E": "cumpridas por aqueles que se dedicam inteiramente a observar as normas jur\u00eddicas. "
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: O brasileiro tem no\u00e7\u00e3o clara dos comportamentos \u00e9ticos e morais adequados, mas vive sob o espectro da corrup\u00e7\u00e3o, revela pesquisa. Se o pa\u00eds fosse resultado dos padr\u00f5es morais que as pessoas dizem aprovar, pareceria mais com a Escandin\u00e1via do que com Bruzundanga (corrompida na\u00e7\u00e3o fict\u00edcia de Lima Barreto). FRAGA, P. Ningu\u00e9m \u00e9 inocente. Folha de S. Paulo. 4 out. 2009 (adaptado). \nO distanciamento entre \u201creconhecer\u201d e \u201ccumprir\u201d efetivamente o que \u00e9 moral constitui uma ambiguidade inerente ao humano, porque as normas morais s\u00e3o \nA. decorrentes da vontade divina e, por esse motivo, ut\u00f3picas. \nB. par\u00e2metros idealizados, cujo cumprimento \u00e9 destitu\u00eddo de obriga\u00e7\u00e3o. \nC. amplas e v\u00e3o al\u00e9m da capacidade de o indiv\u00edduo conseguir cumpri-las integralmente. \nD. criadas pelo homem, que concede a si mesmo a lei \u00e0 qual deve se submeter. \nE. cumpridas por aqueles que se dedicam inteiramente a observar as normas jur\u00eddicas. \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 1.3760464191436768,
+        "request_datetime": 1753131218
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "## Contos e novelas\nJo\u00e3o Alphonsus\nEra um gato preto, como convinha a um cultor das boas letras, que j\u00e1 lera Poe traduzido por Baudelaire. Preto e gordo. E lerdo. T\u00e3o gordo e lerdo que a certa altura observei que ia perdendo inteiramente as qualidades caracter\u00edsticas da ra\u00e7a, que s\u00e3o em suma o \u00f3dio de morte aos ratos. J\u00e1 nem os afugentava! Os ratos de Ouro Preto s\u00e3o tamb\u00e9m dignos e solenes \u2014 n\u00e3o ria \u2014 tradicionalistas... descendentes de outros ratos que naqueles mesmos casar\u00f5es presenciaram acontecimentos importantes da nossa hist\u00f3ria... No sobrado do desembargador Tom\u00e1s Ant\u00f4nio Gonzaga, imagine o senhor uma reuni\u00e3o dos sonhadores inconfidentes, com os antepassados daqueles ratos a passearem pelo s\u00f3t\u00e3o ou mesmo pelo assoalho por entre as pernas dos homens absortos na esperan\u00e7a da independ\u00eancia nacional! E depois, os ancestres daqueles roedores que eu via agora deslizar sutilmente no meu quarto podiam ter subido pelo poste da ignom\u00ednia colonial, onde estava exposta a cabe\u00e7a do Tiradentes! E quando as \u00f3rbitas se descarnaram ignominiosamente, podiam at\u00e9 ter penetrado no recesso daquele cr\u00e2nio onde verdadeiramente ardera a literatura, com a simplicidade do hero\u00edsmo, a febre nacionalista...\nDescrevendo seu gato, o narrador remete ao contexto e a protagonistas da Inconfid\u00eancia para criar um efeito desconcertante centrado no"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "desenho imaginativo do casario colonial de Ouro Preto."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "efeito de apagamento de limites entre fic\u00e7\u00e3o e realidade."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "v\u00ednculo estabelecido entre animais urbanos e literatura."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "questionamento sutil quanto \u00e0 sanidade dos inconfidentes."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "contraste entre austeridade pomposa e imagem repugnante."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id1310"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "desenho imaginativo do casario colonial de Ouro Preto.",
+        "B": "efeito de apagamento de limites entre fic\u00e7\u00e3o e realidade.",
+        "C": "v\u00ednculo estabelecido entre animais urbanos e literatura.",
+        "D": "questionamento sutil quanto \u00e0 sanidade dos inconfidentes.",
+        "E": "contraste entre austeridade pomposa e imagem repugnante."
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: ## Contos e novelas\nJo\u00e3o Alphonsus\nEra um gato preto, como convinha a um cultor das boas letras, que j\u00e1 lera Poe traduzido por Baudelaire. Preto e gordo. E lerdo. T\u00e3o gordo e lerdo que a certa altura observei que ia perdendo inteiramente as qualidades caracter\u00edsticas da ra\u00e7a, que s\u00e3o em suma o \u00f3dio de morte aos ratos. J\u00e1 nem os afugentava! Os ratos de Ouro Preto s\u00e3o tamb\u00e9m dignos e solenes \u2014 n\u00e3o ria \u2014 tradicionalistas... descendentes de outros ratos que naqueles mesmos casar\u00f5es presenciaram acontecimentos importantes da nossa hist\u00f3ria... No sobrado do desembargador Tom\u00e1s Ant\u00f4nio Gonzaga, imagine o senhor uma reuni\u00e3o dos sonhadores inconfidentes, com os antepassados daqueles ratos a passearem pelo s\u00f3t\u00e3o ou mesmo pelo assoalho por entre as pernas dos homens absortos na esperan\u00e7a da independ\u00eancia nacional! E depois, os ancestres daqueles roedores que eu via agora deslizar sutilmente no meu quarto podiam ter subido pelo poste da ignom\u00ednia colonial, onde estava exposta a cabe\u00e7a do Tiradentes! E quando as \u00f3rbitas se descarnaram ignominiosamente, podiam at\u00e9 ter penetrado no recesso daquele cr\u00e2nio onde verdadeiramente ardera a literatura, com a simplicidade do hero\u00edsmo, a febre nacionalista...\nDescrevendo seu gato, o narrador remete ao contexto e a protagonistas da Inconfid\u00eancia para criar um efeito desconcertante centrado no\nA. desenho imaginativo do casario colonial de Ouro Preto.\nB. efeito de apagamento de limites entre fic\u00e7\u00e3o e realidade.\nC. v\u00ednculo estabelecido entre animais urbanos e literatura.\nD. questionamento sutil quanto \u00e0 sanidade dos inconfidentes.\nE. contraste entre austeridade pomposa e imagem repugnante.\nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 2.54435658454895,
+        "request_datetime": 1753131218
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A Internet que voc\u00ea faz Uma pequena inven\u00e7\u00e3o, a Wikip\u00e9dia, mudou o jeito de lidarmos com informa\u00e7\u00f5es na rede. Trata-se de uma enciclop\u00e9dia virtual colaborativa, que \u00e9 feita e atualizada por qualquer internauta que tenha algo a contribuir. Em resumo: \u00e9 como se voc\u00ea imprimisse uma nova p\u00e1gina para a publica\u00e7\u00e3o desatualizada que encontrou na biblioteca. Antigamente, quando precis\u00e1vamos de alguma informa\u00e7\u00e3o confi\u00e1vel, t\u00ednhamos a enciclop\u00e9dia como fonte segura de pesquisa para trabalhos, estudos e pesquisa em geral. Contudo, a novidade trazida pela Wikip\u00e9dia nos coloca em uma nova circunst\u00e2ncia, em que n\u00e3o podemos confiar integralmente no que lemos. Por ter como lema principal a escritura coletiva, seus textos trazem informa\u00e7\u00f5es que podem ser editadas e reeditadas por pessoas do mundo inteiro. Ou seja, a relev\u00e2ncia da informa\u00e7\u00e3o n\u00e3o \u00e9 determinada pela tradi\u00e7\u00e3o cultural, como nas antigas enciclop\u00e9dias, mas pela din\u00e2mica da m\u00eddia. Assim, questiona-se a possibilidade de serem encontradas informa\u00e7\u00f5es corretas entre sabotagens deliberadas e contribui\u00e7\u00f5es erradas. N\u00c9O, A. et al. A Internet que voc\u00ea faz. In: Revista PENSE! Secretaria de Educa\u00e7\u00e3o do Estado do Cear\u00e1. Ano 2, n\u00ba. 3, mar.-abr. 2010 (adaptado). \nAs novas Tecnologias de Informa\u00e7\u00e3o e Comunica\u00e7\u00e3o, como a Wikip\u00e9dia, t\u00eam trazido inova\u00e7\u00f5es que impactaram significativamente a sociedade. A respeito desse assunto, o texto apresentado mostra que a falta de confian\u00e7a na veracidade dos conte\u00fados registrados na Wikip\u00e9dia "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "acontece pelo fato de sua constru\u00e7\u00e3o coletiva possibilitar a edi\u00e7\u00e3o e reedi\u00e7\u00e3o das informa\u00e7\u00f5es por qualquer pessoa no mundo inteiro. "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "limita a dissemina\u00e7\u00e3o do saber, apesar do crescente n\u00famero de acessos ao site que a abriga, por falta de legitimidade "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "ocorre pela facilidade de acesso \u00e0 p\u00e1gina, o que torna a informa\u00e7\u00e3o vulner\u00e1vel, ou seja, pela din\u00e2mica da m\u00eddia. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "ressalta a crescente busca das enciclop\u00e9dias impressas para as pesquisas escolares. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "revela o desconhecimento do usu\u00e1rio, impedindo-o de formar um ju\u00edzo de valor sobre as informa\u00e7\u00f5es. "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id202"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "acontece pelo fato de sua constru\u00e7\u00e3o coletiva possibilitar a edi\u00e7\u00e3o e reedi\u00e7\u00e3o das informa\u00e7\u00f5es por qualquer pessoa no mundo inteiro. ",
+        "B": "limita a dissemina\u00e7\u00e3o do saber, apesar do crescente n\u00famero de acessos ao site que a abriga, por falta de legitimidade ",
+        "C": "ocorre pela facilidade de acesso \u00e0 p\u00e1gina, o que torna a informa\u00e7\u00e3o vulner\u00e1vel, ou seja, pela din\u00e2mica da m\u00eddia. ",
+        "D": "ressalta a crescente busca das enciclop\u00e9dias impressas para as pesquisas escolares. ",
+        "E": "revela o desconhecimento do usu\u00e1rio, impedindo-o de formar um ju\u00edzo de valor sobre as informa\u00e7\u00f5es. "
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: A Internet que voc\u00ea faz Uma pequena inven\u00e7\u00e3o, a Wikip\u00e9dia, mudou o jeito de lidarmos com informa\u00e7\u00f5es na rede. Trata-se de uma enciclop\u00e9dia virtual colaborativa, que \u00e9 feita e atualizada por qualquer internauta que tenha algo a contribuir. Em resumo: \u00e9 como se voc\u00ea imprimisse uma nova p\u00e1gina para a publica\u00e7\u00e3o desatualizada que encontrou na biblioteca. Antigamente, quando precis\u00e1vamos de alguma informa\u00e7\u00e3o confi\u00e1vel, t\u00ednhamos a enciclop\u00e9dia como fonte segura de pesquisa para trabalhos, estudos e pesquisa em geral. Contudo, a novidade trazida pela Wikip\u00e9dia nos coloca em uma nova circunst\u00e2ncia, em que n\u00e3o podemos confiar integralmente no que lemos. Por ter como lema principal a escritura coletiva, seus textos trazem informa\u00e7\u00f5es que podem ser editadas e reeditadas por pessoas do mundo inteiro. Ou seja, a relev\u00e2ncia da informa\u00e7\u00e3o n\u00e3o \u00e9 determinada pela tradi\u00e7\u00e3o cultural, como nas antigas enciclop\u00e9dias, mas pela din\u00e2mica da m\u00eddia. Assim, questiona-se a possibilidade de serem encontradas informa\u00e7\u00f5es corretas entre sabotagens deliberadas e contribui\u00e7\u00f5es erradas. N\u00c9O, A. et al. A Internet que voc\u00ea faz. In: Revista PENSE! Secretaria de Educa\u00e7\u00e3o do Estado do Cear\u00e1. Ano 2, n\u00ba. 3, mar.-abr. 2010 (adaptado). \nAs novas Tecnologias de Informa\u00e7\u00e3o e Comunica\u00e7\u00e3o, como a Wikip\u00e9dia, t\u00eam trazido inova\u00e7\u00f5es que impactaram significativamente a sociedade. A respeito desse assunto, o texto apresentado mostra que a falta de confian\u00e7a na veracidade dos conte\u00fados registrados na Wikip\u00e9dia \nA. acontece pelo fato de sua constru\u00e7\u00e3o coletiva possibilitar a edi\u00e7\u00e3o e reedi\u00e7\u00e3o das informa\u00e7\u00f5es por qualquer pessoa no mundo inteiro. \nB. limita a dissemina\u00e7\u00e3o do saber, apesar do crescente n\u00famero de acessos ao site que a abriga, por falta de legitimidade \nC. ocorre pela facilidade de acesso \u00e0 p\u00e1gina, o que torna a informa\u00e7\u00e3o vulner\u00e1vel, ou seja, pela din\u00e2mica da m\u00eddia. \nD. ressalta a crescente busca das enciclop\u00e9dias impressas para as pesquisas escolares. \nE. revela o desconhecimento do usu\u00e1rio, impedindo-o de formar um ju\u00edzo de valor sobre as informa\u00e7\u00f5es. \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 2.4519944190979004,
+        "request_datetime": 1753131218
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "TExTO I O que vemos no pa\u00eds \u00e9 uma esp\u00e9cie de espraiamento e a manifesta\u00e7\u00e3o da agressividade atrav\u00e9s da viol\u00eancia. Isso se desdobra de maneira evidente na criminalidade, que est\u00e1 presente em todos os redutos \u2014 seja nas \u00e1reas abandonadas pelo poder p\u00fablico, seja na pol\u00edtica ou no futebol. O brasileiro n\u00e3o \u00e9 mais violento do que outros povos, mas a fragilidade do exerc\u00edcio e do reconhecimento da cidadania e a aus\u00eancia do Estado em v\u00e1rios territ\u00f3rios do pa\u00eds se imp\u00f5em como um caldo de cultura no qual a agressividade e a viol\u00eancia fincam suas ra\u00edzes. Entrevista com Joel Birman. A Corrup\u00e7\u00e3o \u00e9 um crime sem rosto. Isto\u00c9. Edi\u00e7\u00e3o 2099, 3 fev. 2010. TExTO II Nenhuma sociedade pode sobreviver sem canalizar as puls\u00f5es e emo\u00e7\u00f5es do indiv\u00edduo, sem um controle muito espec\u00edfico de seu comportamento. Nenhum controle desse tipo \u00e9 poss\u00edvel sem que as pessoas anteponham limita\u00e7\u00f5es umas \u00e0s outras, e todas as limita\u00e7\u00f5es s\u00e3o convertidas, na pessoa a quem s\u00e3o impostas, em medo de um ou outro tipo. ELIAS, N. O Processo Civilizador. Rio de Janeiro: Jorge Zahar, 1993. \nConsiderando-se a din\u00e2mica do processo civilizador, tal como descrito no Texto II, o argumento do Texto I acerca da viol\u00eancia e agressividade na sociedade brasileira expressa a "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "incompatibilidade entre os modos democr\u00e1ticos de conv\u00edvio social e a presen\u00e7a de aparatos de controle policial. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "manuten\u00e7\u00e3o de pr\u00e1ticas repressivas herdadas dos per\u00edodos ditatoriais sob a forma de leis e atos administrativos. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "inabilidade das for\u00e7as militares em conter a viol\u00eancia decorrente das ondas migrat\u00f3rias nas grandes cidades brasileiras. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "dificuldade hist\u00f3rica da sociedade brasileira em institucionalizar formas de controle social compat\u00edveis com valores democr\u00e1ticos. "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "incapacidade das institui\u00e7\u00f5es pol\u00edtico-legislativas em formular mecanismos de controle social espec\u00edficos \u00e0 realidade social brasileira. "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id362"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "incompatibilidade entre os modos democr\u00e1ticos de conv\u00edvio social e a presen\u00e7a de aparatos de controle policial. ",
+        "B": "manuten\u00e7\u00e3o de pr\u00e1ticas repressivas herdadas dos per\u00edodos ditatoriais sob a forma de leis e atos administrativos. ",
+        "C": "inabilidade das for\u00e7as militares em conter a viol\u00eancia decorrente das ondas migrat\u00f3rias nas grandes cidades brasileiras. ",
+        "D": "dificuldade hist\u00f3rica da sociedade brasileira em institucionalizar formas de controle social compat\u00edveis com valores democr\u00e1ticos. ",
+        "E": "incapacidade das institui\u00e7\u00f5es pol\u00edtico-legislativas em formular mecanismos de controle social espec\u00edficos \u00e0 realidade social brasileira. "
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: TExTO I O que vemos no pa\u00eds \u00e9 uma esp\u00e9cie de espraiamento e a manifesta\u00e7\u00e3o da agressividade atrav\u00e9s da viol\u00eancia. Isso se desdobra de maneira evidente na criminalidade, que est\u00e1 presente em todos os redutos \u2014 seja nas \u00e1reas abandonadas pelo poder p\u00fablico, seja na pol\u00edtica ou no futebol. O brasileiro n\u00e3o \u00e9 mais violento do que outros povos, mas a fragilidade do exerc\u00edcio e do reconhecimento da cidadania e a aus\u00eancia do Estado em v\u00e1rios territ\u00f3rios do pa\u00eds se imp\u00f5em como um caldo de cultura no qual a agressividade e a viol\u00eancia fincam suas ra\u00edzes. Entrevista com Joel Birman. A Corrup\u00e7\u00e3o \u00e9 um crime sem rosto. Isto\u00c9. Edi\u00e7\u00e3o 2099, 3 fev. 2010. TExTO II Nenhuma sociedade pode sobreviver sem canalizar as puls\u00f5es e emo\u00e7\u00f5es do indiv\u00edduo, sem um controle muito espec\u00edfico de seu comportamento. Nenhum controle desse tipo \u00e9 poss\u00edvel sem que as pessoas anteponham limita\u00e7\u00f5es umas \u00e0s outras, e todas as limita\u00e7\u00f5es s\u00e3o convertidas, na pessoa a quem s\u00e3o impostas, em medo de um ou outro tipo. ELIAS, N. O Processo Civilizador. Rio de Janeiro: Jorge Zahar, 1993. \nConsiderando-se a din\u00e2mica do processo civilizador, tal como descrito no Texto II, o argumento do Texto I acerca da viol\u00eancia e agressividade na sociedade brasileira expressa a \nA. incompatibilidade entre os modos democr\u00e1ticos de conv\u00edvio social e a presen\u00e7a de aparatos de controle policial. \nB. manuten\u00e7\u00e3o de pr\u00e1ticas repressivas herdadas dos per\u00edodos ditatoriais sob a forma de leis e atos administrativos. \nC. inabilidade das for\u00e7as militares em conter a viol\u00eancia decorrente das ondas migrat\u00f3rias nas grandes cidades brasileiras. \nD. dificuldade hist\u00f3rica da sociedade brasileira em institucionalizar formas de controle social compat\u00edveis com valores democr\u00e1ticos. \nE. incapacidade das institui\u00e7\u00f5es pol\u00edtico-legislativas em formular mecanismos de controle social espec\u00edficos \u00e0 realidade social brasileira. \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 0.6344983577728271,
+        "request_datetime": 1753131219
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "O menor tamandu\u00e1 do mundo \u00e9 solit\u00e1rio e tem h\u00e1bitos noturnos, passa o dia repousando, geralmente em um emaranhado de cip\u00f3s, com o corpo curvado de tal maneira que forma uma bola. Quando em atividade, se locomove vagarosamente e emite som semelhante a um assobio. A cada gesta\u00e7\u00e3o, gera um \u00fanico filhote. A cria \u00e9 deixada em uma \u00e1rvore \u00e0 noite e \u00e9 amamentada pela m\u00e3e at\u00e9 que tenha idade para procurar alimento. As f\u00eameas adultas t\u00eam territ\u00f3rios grandes e o territ\u00f3rio de um macho inclui o de v\u00e1rias f\u00eameas, o que significa que ele tem sempre diversas pretendentes \u00e0 disposi\u00e7\u00e3o para namorar! Ci\u00eancia Hoje das Crian\u00e7as, ano 19, n. 174, nov. 2006 (adaptado). \nEssa descri\u00e7\u00e3o sobre o tamandu\u00e1 diz respeito ao seu "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "h\u00e1bitat. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "bi\u00f3topo. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "n\u00edvel tr\u00f3fico. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "nicho ecol\u00f3gico. "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "potencial bi\u00f3tico. "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id399"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "h\u00e1bitat. ",
+        "B": "bi\u00f3topo. ",
+        "C": "n\u00edvel tr\u00f3fico. ",
+        "D": "nicho ecol\u00f3gico. ",
+        "E": "potencial bi\u00f3tico. "
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: O menor tamandu\u00e1 do mundo \u00e9 solit\u00e1rio e tem h\u00e1bitos noturnos, passa o dia repousando, geralmente em um emaranhado de cip\u00f3s, com o corpo curvado de tal maneira que forma uma bola. Quando em atividade, se locomove vagarosamente e emite som semelhante a um assobio. A cada gesta\u00e7\u00e3o, gera um \u00fanico filhote. A cria \u00e9 deixada em uma \u00e1rvore \u00e0 noite e \u00e9 amamentada pela m\u00e3e at\u00e9 que tenha idade para procurar alimento. As f\u00eameas adultas t\u00eam territ\u00f3rios grandes e o territ\u00f3rio de um macho inclui o de v\u00e1rias f\u00eameas, o que significa que ele tem sempre diversas pretendentes \u00e0 disposi\u00e7\u00e3o para namorar! Ci\u00eancia Hoje das Crian\u00e7as, ano 19, n. 174, nov. 2006 (adaptado). \nEssa descri\u00e7\u00e3o sobre o tamandu\u00e1 diz respeito ao seu \nA. h\u00e1bitat. \nB. bi\u00f3topo. \nC. n\u00edvel tr\u00f3fico. \nD. nicho ecol\u00f3gico. \nE. potencial bi\u00f3tico. \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5407068729400635,
+        "request_datetime": 1753131219
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Apesar de muitas crian\u00e7as e adolescentes terem a Barbie como um exemplo de beleza, um infogr\u00e1fico feito pelo site Rehabs.com comprovou que, caso uma mulher tivesse as medidas da boneca de pl\u00e1stico, ela nem estaria viva. N\u00e3o \u00e9 exatamente uma novidade que as propor\u00e7\u00f5es da boneca mais famosa do mundo s\u00e3o absurdas para o mundo real. Ativistas que lutam pela constru\u00e7\u00e3o de uma autoimagem mais saud\u00e1vel, pesquisadores de dist\u00farbios alimentares e pessoas que se preocupam com o impacto da ind\u00fastria cultural na psique humana apontam, h\u00e1 anos, a influ\u00eancia de modelos como a Barbie na distor\u00e7\u00e3o do corpo feminino. Pesco\u00e7o Com um pesco\u00e7o duas vezes mais longo e 15 cent\u00edmetros mais fino do que o de uma mulher, a Barbie seria incapaz de manter sua cabe\u00e7a levantada. Cintura Com uma cintura de 40 cent\u00edmetros (menor do que a sua cabe\u00e7a), a Barbie da vida real s\u00f3 teria espa\u00e7o em seu corpo para acomodar metade de um rim e alguns cent\u00edmetros de intestino. Quadril O \u00edndice que mede a rela\u00e7\u00e3o entre a cintura e o quadril da Barbie \u00e9 de 0,56, o que significa que a medida da sua cintura representa 56% da circunfer\u00eancia de seu quadril. Esse mesmo \u00edndice, em uma mulher americana m\u00e9dia, \u00e9 de 0,8. Dispon\u00edvel em: http://oglobo.globo.com. Acesso em: 2 maio 2015. \nAo abordar as poss\u00edveis influ\u00eancias da ind\u00fastria de brinquedos sobre a representa\u00e7\u00e3o do corpo feminino, o texto analisa a "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "no\u00e7\u00e3o de beleza globalizada veiculada pela ind\u00fastria cultural. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "influ\u00eancia da m\u00eddia para a ado\u00e7\u00e3o de um estilo de vida salutar pelas mulheres. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "rela\u00e7\u00e3o entre a alimenta\u00e7\u00e3o saud\u00e1vel e o padr\u00e3o de corpo institu\u00eddo pela boneca. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "proporcionalidade entre a representa\u00e7\u00e3o do corpo da boneca e a do corpo humano. "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "influ\u00eancia mercadol\u00f3gica na constru\u00e7\u00e3o de uma autoimagem positiva do corpo feminino. "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id1059"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "no\u00e7\u00e3o de beleza globalizada veiculada pela ind\u00fastria cultural. ",
+        "B": "influ\u00eancia da m\u00eddia para a ado\u00e7\u00e3o de um estilo de vida salutar pelas mulheres. ",
+        "C": "rela\u00e7\u00e3o entre a alimenta\u00e7\u00e3o saud\u00e1vel e o padr\u00e3o de corpo institu\u00eddo pela boneca. ",
+        "D": "proporcionalidade entre a representa\u00e7\u00e3o do corpo da boneca e a do corpo humano. ",
+        "E": "influ\u00eancia mercadol\u00f3gica na constru\u00e7\u00e3o de uma autoimagem positiva do corpo feminino. "
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: Apesar de muitas crian\u00e7as e adolescentes terem a Barbie como um exemplo de beleza, um infogr\u00e1fico feito pelo site Rehabs.com comprovou que, caso uma mulher tivesse as medidas da boneca de pl\u00e1stico, ela nem estaria viva. N\u00e3o \u00e9 exatamente uma novidade que as propor\u00e7\u00f5es da boneca mais famosa do mundo s\u00e3o absurdas para o mundo real. Ativistas que lutam pela constru\u00e7\u00e3o de uma autoimagem mais saud\u00e1vel, pesquisadores de dist\u00farbios alimentares e pessoas que se preocupam com o impacto da ind\u00fastria cultural na psique humana apontam, h\u00e1 anos, a influ\u00eancia de modelos como a Barbie na distor\u00e7\u00e3o do corpo feminino. Pesco\u00e7o Com um pesco\u00e7o duas vezes mais longo e 15 cent\u00edmetros mais fino do que o de uma mulher, a Barbie seria incapaz de manter sua cabe\u00e7a levantada. Cintura Com uma cintura de 40 cent\u00edmetros (menor do que a sua cabe\u00e7a), a Barbie da vida real s\u00f3 teria espa\u00e7o em seu corpo para acomodar metade de um rim e alguns cent\u00edmetros de intestino. Quadril O \u00edndice que mede a rela\u00e7\u00e3o entre a cintura e o quadril da Barbie \u00e9 de 0,56, o que significa que a medida da sua cintura representa 56% da circunfer\u00eancia de seu quadril. Esse mesmo \u00edndice, em uma mulher americana m\u00e9dia, \u00e9 de 0,8. Dispon\u00edvel em: http://oglobo.globo.com. Acesso em: 2 maio 2015. \nAo abordar as poss\u00edveis influ\u00eancias da ind\u00fastria de brinquedos sobre a representa\u00e7\u00e3o do corpo feminino, o texto analisa a \nA. no\u00e7\u00e3o de beleza globalizada veiculada pela ind\u00fastria cultural. \nB. influ\u00eancia da m\u00eddia para a ado\u00e7\u00e3o de um estilo de vida salutar pelas mulheres. \nC. rela\u00e7\u00e3o entre a alimenta\u00e7\u00e3o saud\u00e1vel e o padr\u00e3o de corpo institu\u00eddo pela boneca. \nD. proporcionalidade entre a representa\u00e7\u00e3o do corpo da boneca e a do corpo humano. \nE. influ\u00eancia mercadol\u00f3gica na constru\u00e7\u00e3o de uma autoimagem positiva do corpo feminino. \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5178465843200684,
+        "request_datetime": 1753131220
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Os regimes totalit\u00e1rios da primeira metade do s\u00e9culo XX apoiaram-se fortemente na mobiliza\u00e7\u00e3o da juventude em torno da defesa de ideias grandiosas para o futuro da na\u00e7\u00e3o. Nesses projetos, os jovens deveriam entender que s\u00f3 havia uma pessoa digna de ser amada e obedecida, que era o l\u00edder. Tais movimentos sociais juvenis contribu\u00edram para a implanta\u00e7\u00e3o e a sustenta\u00e7\u00e3o do nazismo, na Alemanha, e do fascismo, na It\u00e1lia, Espanha e Portugal. \nA atua\u00e7\u00e3o desses movimentos juvenis caracterizava-se "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "pelo sectarismo e pela forma violenta e radical com que enfrentavam os opositores ao regime. "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "pelas propostas de conscientiza\u00e7\u00e3o da popula\u00e7\u00e3o acerca dos seus direitos como cidad\u00e3os. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "pela promo\u00e7\u00e3o de um modo de vida saud\u00e1vel, que mostrava os jovens como exemplos a seguir. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "pelo di\u00e1logo, ao organizar debates que opunham jovens idealistas e velhas lideran\u00e7as conservadoras. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "pelos m\u00e9todos pol\u00edticos populistas e pela organiza\u00e7\u00e3o de com\u00edcios multitudin\u00e1rios. "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id31"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "pelo sectarismo e pela forma violenta e radical com que enfrentavam os opositores ao regime. ",
+        "B": "pelas propostas de conscientiza\u00e7\u00e3o da popula\u00e7\u00e3o acerca dos seus direitos como cidad\u00e3os. ",
+        "C": "pela promo\u00e7\u00e3o de um modo de vida saud\u00e1vel, que mostrava os jovens como exemplos a seguir. ",
+        "D": "pelo di\u00e1logo, ao organizar debates que opunham jovens idealistas e velhas lideran\u00e7as conservadoras. ",
+        "E": "pelos m\u00e9todos pol\u00edticos populistas e pela organiza\u00e7\u00e3o de com\u00edcios multitudin\u00e1rios. "
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: Os regimes totalit\u00e1rios da primeira metade do s\u00e9culo XX apoiaram-se fortemente na mobiliza\u00e7\u00e3o da juventude em torno da defesa de ideias grandiosas para o futuro da na\u00e7\u00e3o. Nesses projetos, os jovens deveriam entender que s\u00f3 havia uma pessoa digna de ser amada e obedecida, que era o l\u00edder. Tais movimentos sociais juvenis contribu\u00edram para a implanta\u00e7\u00e3o e a sustenta\u00e7\u00e3o do nazismo, na Alemanha, e do fascismo, na It\u00e1lia, Espanha e Portugal. \nA atua\u00e7\u00e3o desses movimentos juvenis caracterizava-se \nA. pelo sectarismo e pela forma violenta e radical com que enfrentavam os opositores ao regime. \nB. pelas propostas de conscientiza\u00e7\u00e3o da popula\u00e7\u00e3o acerca dos seus direitos como cidad\u00e3os. \nC. pela promo\u00e7\u00e3o de um modo de vida saud\u00e1vel, que mostrava os jovens como exemplos a seguir. \nD. pelo di\u00e1logo, ao organizar debates que opunham jovens idealistas e velhas lideran\u00e7as conservadoras. \nE. pelos m\u00e9todos pol\u00edticos populistas e pela organiza\u00e7\u00e3o de com\u00edcios multitudin\u00e1rios. \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5594391822814941,
+        "request_datetime": 1753131220
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Trata-se de um gigantesco movimento de constru\u00e7\u00e3o de cidades, necess\u00e1rio para o assentamento residencial dessa popula\u00e7\u00e3o, bem como de suas necessidades de trabalho, abastecimento, transportes, sa\u00fade, energia, \u00e1gua etc. Ainda que o rumo tomado pelo crescimento urbano n\u00e3o tenha respondido satisfatoriamente a todas essas necessidades, o territ\u00f3rio foi ocupado e foram constru\u00eddas as condi\u00e7\u00f5es para viver nesse espa\u00e7o. MARICATO, E. Brasil, cidades: alternativas para a crise urbana. Petr\u00f3polis: Vozes, 2001. \nA din\u00e2mica de transforma\u00e7\u00e3o das cidades tende a apresentar como consequ\u00eancia a expans\u00e3o das \u00e1reas perif\u00e9ricas pelo(a) "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "crescimento da popula\u00e7\u00e3o urbana e aumento da especula\u00e7\u00e3o imobili\u00e1ria. "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "direcionamento maior do fl uxo de pessoas, devido \u00e0 exist\u00eancia de um grande n\u00famero de servi\u00e7os. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "delimita\u00e7\u00e3o de \u00e1reas para uma ocupa\u00e7\u00e3o organizada do espa\u00e7o f\u00edsico, melhorando a qualidade de vida. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "implanta\u00e7\u00e3o de pol\u00edticas p\u00fablicas que promovem a moradia e o direito \u00e0 cidade aos seus moradores. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "reurbaniza\u00e7\u00e3o de moradias nas \u00e1reas centrais, mantendo o trabalhador pr\u00f3ximo ao seu emprego, diminuindo os deslocamentos para a periferia. "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id465"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "crescimento da popula\u00e7\u00e3o urbana e aumento da especula\u00e7\u00e3o imobili\u00e1ria. ",
+        "B": "direcionamento maior do fl uxo de pessoas, devido \u00e0 exist\u00eancia de um grande n\u00famero de servi\u00e7os. ",
+        "C": "delimita\u00e7\u00e3o de \u00e1reas para uma ocupa\u00e7\u00e3o organizada do espa\u00e7o f\u00edsico, melhorando a qualidade de vida. ",
+        "D": "implanta\u00e7\u00e3o de pol\u00edticas p\u00fablicas que promovem a moradia e o direito \u00e0 cidade aos seus moradores. ",
+        "E": "reurbaniza\u00e7\u00e3o de moradias nas \u00e1reas centrais, mantendo o trabalhador pr\u00f3ximo ao seu emprego, diminuindo os deslocamentos para a periferia. "
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: Trata-se de um gigantesco movimento de constru\u00e7\u00e3o de cidades, necess\u00e1rio para o assentamento residencial dessa popula\u00e7\u00e3o, bem como de suas necessidades de trabalho, abastecimento, transportes, sa\u00fade, energia, \u00e1gua etc. Ainda que o rumo tomado pelo crescimento urbano n\u00e3o tenha respondido satisfatoriamente a todas essas necessidades, o territ\u00f3rio foi ocupado e foram constru\u00eddas as condi\u00e7\u00f5es para viver nesse espa\u00e7o. MARICATO, E. Brasil, cidades: alternativas para a crise urbana. Petr\u00f3polis: Vozes, 2001. \nA din\u00e2mica de transforma\u00e7\u00e3o das cidades tende a apresentar como consequ\u00eancia a expans\u00e3o das \u00e1reas perif\u00e9ricas pelo(a) \nA. crescimento da popula\u00e7\u00e3o urbana e aumento da especula\u00e7\u00e3o imobili\u00e1ria. \nB. direcionamento maior do fl uxo de pessoas, devido \u00e0 exist\u00eancia de um grande n\u00famero de servi\u00e7os. \nC. delimita\u00e7\u00e3o de \u00e1reas para uma ocupa\u00e7\u00e3o organizada do espa\u00e7o f\u00edsico, melhorando a qualidade de vida. \nD. implanta\u00e7\u00e3o de pol\u00edticas p\u00fablicas que promovem a moradia e o direito \u00e0 cidade aos seus moradores. \nE. reurbaniza\u00e7\u00e3o de moradias nas \u00e1reas centrais, mantendo o trabalhador pr\u00f3ximo ao seu emprego, diminuindo os deslocamentos para a periferia. \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 1.0061252117156982,
+        "request_datetime": 1753131220
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Guardar Guardar uma coisa n\u00e3o \u00e9 escond\u00ea-la ou tranc\u00e1-la. Em cofre n\u00e3o se guarda coisa alguma. Em cofre perde-se a coisa \u00e0 vista. Guardar uma coisa \u00e9 olh\u00e1-la, fit\u00e1-la, mir\u00e1-la por admir\u00e1-la, isto \u00e9, ilumin\u00e1-la ou ser por ela iluminado. Guardar uma coisa \u00e9 vigi\u00e1-la, isto \u00e9, fazer vig\u00edlia por ela, isto \u00e9, velar por ela, isto \u00e9, estar acordado por ela, isto \u00e9, estar por ela ou ser por ela. Por isso melhor se guarda o voo de um p\u00e1ssaro Do que um p\u00e1ssaro sem voos. Por isso se escreve, por isso se diz, por isso se publica, por isso se declara e declama um poema: Para guard\u00e1-lo: Para que ele, por sua vez, guarde o que guarda: Guarde o que quer que guarda um poema: Por isso o lance do poema: Por guardar-se o que se quer guardar. MACHADO, G. In: MORICONI, I. (org.). Os cem melhores poemas brasileiros do s\u00e9culo. Rio de Janeiro: Objetiva, 2001. \nA mem\u00f3ria \u00e9 um importante recurso do patrim\u00f4nio cultural de uma na\u00e7\u00e3o. Ela est\u00e1 presente nas lembran\u00e7as do passado e no acervo cultural de um povo. Ao tratar o fazer po\u00e9tico como uma das maneiras de se guardar o que se quer, o texto "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "ressalta a import\u00e2ncia dos estudos hist\u00f3ricos para a constru\u00e7\u00e3o da mem\u00f3ria social de um povo. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "valoriza as lembran\u00e7as individuais em detrimento das narrativas populares ou coletivas. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "refor\u00e7a a capacidade da literatura em promover a subjetividade e os valores humanos. "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "destaca a import\u00e2ncia de reservar o texto liter\u00e1rio \u00e0queles que possuem maior repert\u00f3rio cultural. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "revela a superioridade da escrita po\u00e9tica como forma ideal de preserva\u00e7\u00e3o da mem\u00f3ria cultural. "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id317"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "ressalta a import\u00e2ncia dos estudos hist\u00f3ricos para a constru\u00e7\u00e3o da mem\u00f3ria social de um povo. ",
+        "B": "valoriza as lembran\u00e7as individuais em detrimento das narrativas populares ou coletivas. ",
+        "C": "refor\u00e7a a capacidade da literatura em promover a subjetividade e os valores humanos. ",
+        "D": "destaca a import\u00e2ncia de reservar o texto liter\u00e1rio \u00e0queles que possuem maior repert\u00f3rio cultural. ",
+        "E": "revela a superioridade da escrita po\u00e9tica como forma ideal de preserva\u00e7\u00e3o da mem\u00f3ria cultural. "
+      },
+      "request": {
+        "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: Guardar Guardar uma coisa n\u00e3o \u00e9 escond\u00ea-la ou tranc\u00e1-la. Em cofre n\u00e3o se guarda coisa alguma. Em cofre perde-se a coisa \u00e0 vista. Guardar uma coisa \u00e9 olh\u00e1-la, fit\u00e1-la, mir\u00e1-la por admir\u00e1-la, isto \u00e9, ilumin\u00e1-la ou ser por ela iluminado. Guardar uma coisa \u00e9 vigi\u00e1-la, isto \u00e9, fazer vig\u00edlia por ela, isto \u00e9, velar por ela, isto \u00e9, estar acordado por ela, isto \u00e9, estar por ela ou ser por ela. Por isso melhor se guarda o voo de um p\u00e1ssaro Do que um p\u00e1ssaro sem voos. Por isso se escreve, por isso se diz, por isso se publica, por isso se declara e declama um poema: Para guard\u00e1-lo: Para que ele, por sua vez, guarde o que guarda: Guarde o que quer que guarda um poema: Por isso o lance do poema: Por guardar-se o que se quer guardar. MACHADO, G. In: MORICONI, I. (org.). Os cem melhores poemas brasileiros do s\u00e9culo. Rio de Janeiro: Objetiva, 2001. \nA mem\u00f3ria \u00e9 um importante recurso do patrim\u00f4nio cultural de uma na\u00e7\u00e3o. Ela est\u00e1 presente nas lembran\u00e7as do passado e no acervo cultural de um povo. Ao tratar o fazer po\u00e9tico como uma das maneiras de se guardar o que se quer, o texto \nA. ressalta a import\u00e2ncia dos estudos hist\u00f3ricos para a constru\u00e7\u00e3o da mem\u00f3ria social de um povo. \nB. valoriza as lembran\u00e7as individuais em detrimento das narrativas populares ou coletivas. \nC. refor\u00e7a a capacidade da literatura em promover a subjetividade e os valores humanos. \nD. destaca a import\u00e2ncia de reservar o texto liter\u00e1rio \u00e0queles que possuem maior repert\u00f3rio cultural. \nE. revela a superioridade da escrita po\u00e9tica como forma ideal de preserva\u00e7\u00e3o da mem\u00f3ria cultural. \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0,
+            "tokens": []
+          }
+        ],
+        "cached": false,
+        "request_time": 0.6973931789398193,
+        "request_datetime": 1753131220
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

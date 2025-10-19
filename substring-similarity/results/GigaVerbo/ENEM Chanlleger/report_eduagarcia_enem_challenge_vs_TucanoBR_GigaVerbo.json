@@ -1,0 +1,22 @@
+{
+    "verificacao": {
+        "benchmark": "eduagarcia/enem_challenge/train",
+        "corpus_treino": "TucanoBR/GigaVerbo"
+    },
+    "parametros": {
+        "n_samples": 3,
+        "string_size": 50,
+        "batch_size": 6000,
+        "num_workers": 50,
+        "seed": 42
+    },
+    "resultados": {
+        "total_exemplos_treino_processados": 145300844,
+        "pontos_contaminados_unicos": 1292,
+        "metrica_densidade_contaminacao": {
+            "total_sobreposicoes": 31394,
+            "total_comparacoes": 34678744,
+            "percentual": "0.0905%"
+        }
+    }
+}

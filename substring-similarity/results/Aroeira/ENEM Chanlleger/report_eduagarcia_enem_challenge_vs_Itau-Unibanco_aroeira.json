@@ -1,0 +1,22 @@
+{
+    "verificacao": {
+        "benchmark": "eduagarcia/enem_challenge/train",
+        "corpus_treino": "Itau-Unibanco/aroeira"
+    },
+    "parametros": {
+        "n_samples": 3,
+        "string_size": 50,
+        "batch_size": 6000,
+        "num_workers": 8,
+        "seed": 42
+    },
+    "resultados": {
+        "total_exemplos_treino_processados": 34841241,
+        "pontos_contaminados_unicos": 954,
+        "metrica_densidade_contaminacao": {
+            "total_sobreposicoes": 7276,
+            "total_comparacoes": 8315624,
+            "percentual": "0.0875%"
+        }
+    }
+}

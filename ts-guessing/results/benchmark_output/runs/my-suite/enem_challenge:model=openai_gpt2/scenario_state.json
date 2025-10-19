@@ -1,0 +1,210 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+    "input_prefix": "Pergunta: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "chain_of_thought_prefix": "",
+    "chain_of_thought_suffix": "\n",
+    "output_prefix": "Resposta: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 2,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "huggingface/gpt2",
+    "model": "openai/gpt2",
+    "temperature": 0.0,
+    "max_tokens": 1,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "Raios de luz solar est\u00e3o atingindo a superf\u00edcie de um lago formando um \u00e2ngulo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> com a sua superf\u00edcie, conforme indica a figura. Em determinadas condi\u00e7\u00f5es, pode-se supor que a intensidade luminosa desses raios, na superf\u00edcie do lago, seja dada aproximadamente por <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>k</mi><mo>&#xD7;</mo><mi>sin</mi><mfenced><mi>x</mi></mfenced></math> ,sendo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> uma constante, e supondo-se que <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> est\u00e1 entre 0\u00ba e 90\u00ba. \nQuando <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn><mo>&#xB0;</mo></math>, a intensidade luminosa se reduz a qual percentual de seu valor m\u00e1ximo? "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "33% "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "50% "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "57% "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "70% "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "86% "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id1149"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "33% ",
+        "B": "50% ",
+        "C": "57% ",
+        "D": "70% ",
+        "E": "86% "
+      },
+      "request": {
+        "model_deployment": "huggingface/gpt2",
+        "model": "openai/gpt2",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: Raios de luz solar est\u00e3o atingindo a superf\u00edcie de um lago formando um \u00e2ngulo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> com a sua superf\u00edcie, conforme indica a figura. Em determinadas condi\u00e7\u00f5es, pode-se supor que a intensidade luminosa desses raios, na superf\u00edcie do lago, seja dada aproximadamente por <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mi>k</mi><mo>&#xD7;</mo><mi>sin</mi><mfenced><mi>x</mi></mfenced></math> ,sendo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> uma constante, e supondo-se que <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> est\u00e1 entre 0\u00ba e 90\u00ba. \nQuando <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn><mo>&#xB0;</mo></math>, a intensidade luminosa se reduz a qual percentual de seu valor m\u00e1ximo? \nA. 33% \nB. 50% \nC. 57% \nD. 70% \nE. 86% \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": true,
+        "request_time": 2.343217611312866,
+        "request_datetime": 1748283248
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "O brasileiro tem no\u00e7\u00e3o clara dos comportamentos \u00e9ticos e morais adequados, mas vive sob o espectro da corrup\u00e7\u00e3o, revela pesquisa. Se o pa\u00eds fosse resultado dos padr\u00f5es morais que as pessoas dizem aprovar, pareceria mais com a Escandin\u00e1via do que com Bruzundanga (corrompida na\u00e7\u00e3o fict\u00edcia de Lima Barreto). FRAGA, P. Ningu\u00e9m \u00e9 inocente. Folha de S. Paulo. 4 out. 2009 (adaptado). \nO distanciamento entre \u201creconhecer\u201d e \u201ccumprir\u201d efetivamente o que \u00e9 moral constitui uma ambiguidade inerente ao humano, porque as normas morais s\u00e3o "
+        },
+        "references": [
+          {
+            "output": {
+              "text": "decorrentes da vontade divina e, por esse motivo, ut\u00f3picas. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "par\u00e2metros idealizados, cujo cumprimento \u00e9 destitu\u00eddo de obriga\u00e7\u00e3o. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "amplas e v\u00e3o al\u00e9m da capacidade de o indiv\u00edduo conseguir cumpri-las integralmente. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "criadas pelo homem, que concede a si mesmo a lei \u00e0 qual deve se submeter. "
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "cumpridas por aqueles que se dedicam inteiramente a observar as normas jur\u00eddicas. "
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id233"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "decorrentes da vontade divina e, por esse motivo, ut\u00f3picas. ",
+        "B": "par\u00e2metros idealizados, cujo cumprimento \u00e9 destitu\u00eddo de obriga\u00e7\u00e3o. ",
+        "C": "amplas e v\u00e3o al\u00e9m da capacidade de o indiv\u00edduo conseguir cumpri-las integralmente. ",
+        "D": "criadas pelo homem, que concede a si mesmo a lei \u00e0 qual deve se submeter. ",
+        "E": "cumpridas por aqueles que se dedicam inteiramente a observar as normas jur\u00eddicas. "
+      },
+      "request": {
+        "model_deployment": "huggingface/gpt2",
+        "model": "openai/gpt2",
+        "embedding": false,
+        "prompt": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n\nPergunta: O brasileiro tem no\u00e7\u00e3o clara dos comportamentos \u00e9ticos e morais adequados, mas vive sob o espectro da corrup\u00e7\u00e3o, revela pesquisa. Se o pa\u00eds fosse resultado dos padr\u00f5es morais que as pessoas dizem aprovar, pareceria mais com a Escandin\u00e1via do que com Bruzundanga (corrompida na\u00e7\u00e3o fict\u00edcia de Lima Barreto). FRAGA, P. Ningu\u00e9m \u00e9 inocente. Folha de S. Paulo. 4 out. 2009 (adaptado). \nO distanciamento entre \u201creconhecer\u201d e \u201ccumprir\u201d efetivamente o que \u00e9 moral constitui uma ambiguidade inerente ao humano, porque as normas morais s\u00e3o \nA. decorrentes da vontade divina e, por esse motivo, ut\u00f3picas. \nB. par\u00e2metros idealizados, cujo cumprimento \u00e9 destitu\u00eddo de obriga\u00e7\u00e3o. \nC. amplas e v\u00e3o al\u00e9m da capacidade de o indiv\u00edduo conseguir cumpri-las integralmente. \nD. criadas pelo homem, que concede a si mesmo a lei \u00e0 qual deve se submeter. \nE. cumpridas por aqueles que se dedicam inteiramente a observar as normas jur\u00eddicas. \nResposta:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " O",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " O",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": true,
+        "request_time": 2.3267712593078613,
+        "request_datetime": 1748283248
+      },
+      "num_train_instances": 0,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

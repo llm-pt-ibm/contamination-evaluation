@@ -1,0 +1,5237 @@
+[
+  {
+    "name": "bluex:model=22h_cabrita_7b_pt_850000",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEX_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "22h/cabrita_7b_pt_850000",
+      "model": "22h/cabrita_7b_pt_850000",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=CEIA-UFG_Gemma-3-Gaia-PT-BR-4b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEX_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/Gemma-3-Gaia-PT-BR-4b-it",
+      "model": "CEIA-UFG/Gemma-3-Gaia-PT-BR-4b-it",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=PORTULAN_gervasio-7b-portuguese-ptbr-decoder",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEX_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "model": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=TucanoBR_Tucano-2b4",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEX_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "TucanoBR/Tucano-2b4",
+      "model": "TucanoBR/Tucano-2b4",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=google_gemma-3-12b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEXScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "google/gemma-3-12b-it",
+      "model": "google/gemma-3-12b-it",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=maritaca-ai_sabia-3.1-2025-05-08",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEX_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "maritaca-ai/sabia-3.1-2025-05-08",
+      "model": "maritaca-ai/sabia-3.1-2025-05-08",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=maritaca-ai_sabia-7b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEX_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "maritaca-ai/sabia-7b",
+      "model": "maritaca-ai/sabia-7b",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=meta_llama-3.1-8b-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEXScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/llama-3.1-8b-instruct",
+      "model": "meta/llama-3.1-8b-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=microsoft_phi-4-14b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEXScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/microsoft-phi-4",
+      "model": "microsoft/phi-4-14b",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=mistralai_ministral-8b-2410",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEXScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "mistralai/ministral-8b-2410",
+      "model": "mistralai/ministral-8b-2410",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=openai_gpt-4o-2024-11-20",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEXScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-4o-2024-11-20",
+      "model": "openai/gpt-4o-2024-11-20",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=openrouter_llama-4-maverick-17b-128e-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEXScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/llama-4-maverick-17b-128e-instruct",
+      "model": "openrouter/llama-4-maverick-17b-128e-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=qwen_qwen3-8B",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEXScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/qwen3-8b",
+      "model": "qwen/qwen3-8B",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "bluex:model=recogna-nlp_bode-13b-alpaca-pt-br-no-peft",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.bluex_scenario.BLUEX_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de vestibulares (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Em um romance narrado em primeira pessoa, o narrador participa dos acontecimentos da trama,\n        relatando suas pr\u00f3prias experi\u00eancias e sentimentos. Qual alternativa apresenta essa caracter\u00edstica?\n\n        (A) Narrador onisciente que conhece os pensamentos de todas as personagens.\n        (B) Narrador que descreve os fatos de forma imparcial, sem envolvimento emocional.\n        (C) Narrador-personagem que vivencia e relata os eventos da hist\u00f3ria.\n        (D) Narrador observador que apenas registra as a\u00e7\u00f5es vis\u00edveis.\n        (E) Narrador em segunda pessoa que se dirige constantemente ao leitor.\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1200,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "model": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "bluex"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=22h_cabrita_7b_pt_850000",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "22h/cabrita_7b_pt_850000",
+      "model": "22h/cabrita_7b_pt_850000",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=CEIA-UFG_Gemma-3-Gaia-PT-BR-4b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/Gemma-3-Gaia-PT-BR-4b-it",
+      "model": "CEIA-UFG/Gemma-3-Gaia-PT-BR-4b-it",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=PORTULAN_gervasio-7b-portuguese-ptbr-decoder",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "model": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=TucanoBR_Tucano-2b4",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "TucanoBR/Tucano-2b4",
+      "model": "TucanoBR/Tucano-2b4",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=google_gemma-3-12b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "google/gemma-3-12b-it",
+      "model": "google/gemma-3-12b-it",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=ibm-granite_granite-3.3-8b-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "ibm-granite/granite-3.3-8b-instruct",
+      "model": "ibm-granite/granite-3.3-8b-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=ibm_final-deployment-bode-13b-alpaca-pt-br-no-peft",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 10,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+      "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=maritaca-ai_sabia-7b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "maritaca-ai/sabia-7b",
+      "model": "maritaca-ai/sabia-7b",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=meta_llama-3.1-8b-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/llama-3.1-8b-instruct",
+      "model": "meta/llama-3.1-8b-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=microsoft_phi-4-14b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/microsoft-phi-4",
+      "model": "microsoft/phi-4-14b",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=mistralai_ministral-8b-2410",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "mistralai/ministral-8b-2410",
+      "model": "mistralai/ministral-8b-2410",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=openai_gpt-4o-2024-11-20",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-4o-2024-11-20",
+      "model": "openai/gpt-4o-2024-11-20",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=openai_gpt-5-2025-08-07",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 5,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-5-2025-08-07",
+      "model": "openai/gpt-5-2025-08-07",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=openrouter_deepseek-r1-0528",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/deepseek-r1-0528",
+      "model": "openrouter/deepseek-r1-0528",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=openrouter_gpt-oss-20b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/gpt-oss-20b",
+      "model": "openrouter/gpt-oss-20b",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=openrouter_llama-3.1-405b-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/llama-3.1-405b-instruct",
+      "model": "openrouter/llama-3.1-405b-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=openrouter_llama-4-maverick-17b-128e-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/llama-4-maverick-17b-128e-instruct",
+      "model": "openrouter/llama-4-maverick-17b-128e-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=qwen_qwen3-8B",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/qwen3-8b",
+      "model": "qwen/qwen3-8B",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "enem_challenge:model=recogna-nlp_bode-13b-alpaca-pt-br-no-peft",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "model": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "enem_challenge"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=22h_cabrita_7b_pt_850000",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "22h/cabrita_7b_pt_850000",
+      "model": "22h/cabrita_7b_pt_850000",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=CEIA-UFG_Gemma-3-Gaia-PT-BR-4b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/Gemma-3-Gaia-PT-BR-4b-it",
+      "model": "CEIA-UFG/Gemma-3-Gaia-PT-BR-4b-it",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=PORTULAN_gervasio-7b-portuguese-ptbr-decoder",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "model": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=TucanoBR_Tucano-2b4",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "TucanoBR/Tucano-2b4",
+      "model": "TucanoBR/Tucano-2b4",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=google_gemma-3-12b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "google/gemma-3-12b-it",
+      "model": "google/gemma-3-12b-it",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=maritaca-ai_sabia-3.1-2025-05-08",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "maritaca-ai/sabia-3.1-2025-05-08",
+      "model": "maritaca-ai/sabia-3.1-2025-05-08",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=maritaca-ai_sabia-7b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "maritaca-ai/sabia-7b",
+      "model": "maritaca-ai/sabia-7b",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=meta_llama-3.1-8b-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/llama-3.1-8b-instruct",
+      "model": "meta/llama-3.1-8b-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=microsoft_phi-4-14b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/microsoft-phi-4",
+      "model": "microsoft/phi-4-14b",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=mistralai_ministral-8b-2410",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "mistralai/ministral-8b-2410",
+      "model": "mistralai/ministral-8b-2410",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=openai_gpt-4o-2024-11-20",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-4o-2024-11-20",
+      "model": "openai/gpt-4o-2024-11-20",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=openrouter_llama-4-maverick-17b-128e-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/llama-4-maverick-17b-128e-instruct",
+      "model": "openrouter/llama-4-maverick-17b-128e-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=qwen_qwen3-8B",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/qwen3-8b",
+      "model": "qwen/qwen3-8B",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "healthqa_br:model=recogna-nlp_bode-13b-alpaca-pt-br-no-peft",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.healthqa_br_scenario.HEALTHQA_BR_Scenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "\n        Escolha a alternativa correta para as quest\u00f5es de medicina (responda apenas com a letra).\n        Exemplo de Pergunta com a resposta:\n        Qual dos seguintes \u00f3rg\u00e3os \u00e9 respons\u00e1vel pela produ\u00e7\u00e3o da insulina no corpo humano?\n        A) F\u00edgado\n        B) Rins\n        C) P\u00e2ncreas\n        D) Ba\u00e7o\n        E) Cora\u00e7\u00e3o\n\n        Resposta correta: C\n\n        A partir disso, responda:\n        \n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "model": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "healthqa_br"
+    ]
+  },
+  {
+    "name": "imdb_ptbr:model=maritaca-ai_sabia-7b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.imdb_ptbr_scenario.IMDB_PTBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique a resenha do usu\u00e1rio sobre o filme como \"positivo\" ou \"negativo\".\n\n        Resenha: Tudo sobre o filme \u00e9 maravilhoso. Atua\u00e7\u00f5es, trilha sonora, fotografia. Amei tudo!\n        Classe: positivo\n\n        Resenha: Achei um filme bem fraco, n\u00e3o gostei da hist\u00f3ria.\n        Classe: negativo\n        \n",
+      "input_prefix": "Resenha: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 6000,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "maritaca-ai/sabia-7b",
+      "model": "maritaca-ai/sabia-7b",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "imdb_ptbr"
+    ]
+  },
+  {
+    "name": "oab_exams:model=22h_cabrita_7b_pt_850000",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "22h/cabrita_7b_pt_850000",
+      "model": "22h/cabrita_7b_pt_850000",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=CEIA-UFG_Gemma-3-Gaia-PT-BR-4b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/Gemma-3-Gaia-PT-BR-4b-it",
+      "model": "CEIA-UFG/Gemma-3-Gaia-PT-BR-4b-it",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=PORTULAN_gervasio-7b-portuguese-ptbr-decoder",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "model": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=TucanoBR_Tucano-2b4",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "TucanoBR/Tucano-2b4",
+      "model": "TucanoBR/Tucano-2b4",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=google_gemma-3-12b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "google/gemma-3-12b-it",
+      "model": "google/gemma-3-12b-it",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=maritaca-ai_sabia-7b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "maritaca-ai/sabia-7b",
+      "model": "maritaca-ai/sabia-7b",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=meta_llama-3.1-8b-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/llama-3.1-8b-instruct",
+      "model": "meta/llama-3.1-8b-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=microsoft_phi-4-14b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/microsoft-phi-4",
+      "model": "microsoft/phi-4-14b",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=mistralai_ministral-8b-2410",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "mistralai/ministral-8b-2410",
+      "model": "mistralai/ministral-8b-2410",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=openai_gpt-4o-2024-11-20",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-4o-2024-11-20",
+      "model": "openai/gpt-4o-2024-11-20",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=openrouter_llama-4-maverick-17b-128e-instruct",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openrouter/llama-4-maverick-17b-128e-instruct",
+      "model": "openrouter/llama-4-maverick-17b-128e-instruct",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=qwen_qwen3-8B",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/qwen3-8b",
+      "model": "qwen/qwen3-8B",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "oab_exams:model=recogna-nlp_bode-13b-alpaca-pt-br-no-peft",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.oab_exams_scenario.OABExamsScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "multiple_choice_joint",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C e D,sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Ao conselho da subse\u00e7\u00e3o compete\nA. representar a OAB no Conselho de Seguran\u00e7a do MERCOSUL.\nB. fiscalizar as fun\u00e7\u00f5es e atribui\u00e7\u00f5es do conselho seccional.\nC. instaurar e instruir processos disciplinares, para julgamento pelo Conselho Federal.\nD. receber pedido de inscri\u00e7\u00e3o nos quadros de advogado e estagi\u00e1rio, instruindo e emitindo parecer pr\u00e9vio, para decis\u00e3o do conselho seccional.\nResposta: D\n",
+      "input_prefix": "Pergunta: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Resposta: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2500,
+      "num_outputs": 5,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "model": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "temperature": 0.0,
+      "max_tokens": 1,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "oab_exams"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=22h_cabrita_7b_pt_850000",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "22h/cabrita_7b_pt_850000",
+      "model": "22h/cabrita_7b_pt_850000",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=CEIA-UFG_Gemma-3-Gaia-PT-BR-4b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/Gemma-3-Gaia-PT-BR-4b-it",
+      "model": "CEIA-UFG/Gemma-3-Gaia-PT-BR-4b-it",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=PORTULAN_gervasio-7b-portuguese-ptbr-decoder",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "model": "PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=TucanoBR_Tucano-2b4",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "TucanoBR/Tucano-2b4",
+      "model": "TucanoBR/Tucano-2b4",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=colab_gpt2-finetuning",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "colab/gpt2-finetuning",
+      "model": "colab/gpt2-finetuning",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=google_gemma-3-12b-it",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "google/gemma-3-12b-it",
+      "model": "google/gemma-3-12b-it",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=maritaca-ai_sabia-3.1-2025-05-08",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "maritaca-ai/sabia-3.1-2025-05-08",
+      "model": "maritaca-ai/sabia-3.1-2025-05-08",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=maritaca-ai_sabia-7b",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "maritaca-ai/sabia-7b",
+      "model": "maritaca-ai/sabia-7b",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=mistralai_ministral-8b-2410",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "mistralai/ministral-8b-2410",
+      "model": "mistralai/ministral-8b-2410",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=openai_gpt-4o-2024-11-20",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 1,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "openai/gpt-4o-2024-11-20",
+      "model": "openai/gpt-4o-2024-11-20",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=qwen_qwen3-8B",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "huggingface/qwen3-8b",
+      "model": "qwen/qwen3-8B",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  },
+  {
+    "name": "tweetsentbr:model=recogna-nlp_bode-13b-alpaca-pt-br-no-peft",
+    "scenario_spec": {
+      "class_name": "helm.benchmark.scenarios.tweetsentbr_scenario.TweetSentBRScenario",
+      "args": {}
+    },
+    "adapter_spec": {
+      "method": "generation",
+      "global_prefix": "",
+      "global_suffix": "",
+      "instructions": "Classifique o tweet como \"Positivo\", \"Neutro\" ou \"Negativo\".\n\n        Tweet: voc\u00eas viram a novela hoje?\n        Classe: Neutro\n\n        Tweet: que vontade de comer pizza\n        Classe: Neutro\n        \n",
+      "input_prefix": "Tweet: ",
+      "input_suffix": "\n",
+      "reference_prefix": "A. ",
+      "reference_suffix": "\n",
+      "chain_of_thought_prefix": "",
+      "chain_of_thought_suffix": "\n",
+      "output_prefix": "Classe: ",
+      "output_suffix": "\n",
+      "instance_prefix": "\n",
+      "substitutions": [],
+      "max_train_instances": 5,
+      "max_eval_instances": 2200,
+      "num_outputs": 1,
+      "num_train_trials": 1,
+      "num_trials": 1,
+      "sample_train": true,
+      "model_deployment": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "model": "recogna-nlp/bode-13b-alpaca-pt-br-no-peft",
+      "temperature": 0.0,
+      "max_tokens": 5,
+      "stop_sequences": [
+        "\n"
+      ],
+      "multi_label": false
+    },
+    "metric_specs": [
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+        "args": {
+          "names": [
+            "exact_match",
+            "quasi_exact_match",
+            "prefix_exact_match",
+            "quasi_prefix_exact_match"
+          ]
+        }
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+        "args": {}
+      },
+      {
+        "class_name": "helm.benchmark.metrics.classification_metrics.ClassificationMetric",
+        "args": {}
+      }
+    ],
+    "data_augmenter_spec": {
+      "perturbation_specs": [],
+      "should_augment_train_instances": false,
+      "should_include_original_train": false,
+      "should_skip_unchanged_train": false,
+      "should_augment_eval_instances": false,
+      "should_include_original_eval": false,
+      "should_skip_unchanged_eval": false,
+      "seeds_per_instance": 1
+    },
+    "groups": [
+      "tweetsentbr"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+    "verificacao": {
+        "benchmark": "portuguese-benchmark-datasets/BLUEX/questions",
+        "corpus_treino": "eduagarcia/mc4-pt"
+    },
+    "parametros": {
+        "n_samples": 3,
+        "string_size": 50,
+        "batch_size": 6000,
+        "num_workers": 80,
+        "seed": 42
+    },
+    "resultados": {
+        "total_exemplos_treino_processados": 169073811,
+        "pontos_contaminados_unicos": 508,
+        "metrica_densidade_contaminacao": {
+            "total_sobreposicoes": 3342,
+            "total_comparacoes": 40070538,
+            "percentual": "0.0083%"
+        }
+    }
+}

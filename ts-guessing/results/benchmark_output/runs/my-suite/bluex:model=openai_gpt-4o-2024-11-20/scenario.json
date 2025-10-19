@@ -1,0 +1,10 @@
+{
+  "name": "bluex",
+  "description": "MQA benchmark with questions from Brazilian entrance exams",
+  "tags": [
+    "knowledge",
+    "multiple_choice",
+    "pt-br"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/bluex_scenario.py"
+}

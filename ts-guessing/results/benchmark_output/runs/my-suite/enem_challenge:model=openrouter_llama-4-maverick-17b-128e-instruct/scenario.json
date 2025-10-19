@@ -1,0 +1,10 @@
+{
+  "name": "enem_challenge",
+  "description": "ENEM Challenge dataset",
+  "tags": [
+    "knowledge",
+    "multiple_choice",
+    "pt-br"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/enem_challenge_scenario.py"
+}

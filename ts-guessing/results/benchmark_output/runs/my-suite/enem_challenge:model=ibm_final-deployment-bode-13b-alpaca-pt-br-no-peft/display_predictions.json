@@ -1,0 +1,80 @@
+[
+  {
+    "instance_id": "id1149",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "57% ",
+    "stats": {}
+  },
+  {
+    "instance_id": "id233",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "par\u00e2metros idealizados, cujo cumprimento \u00e9 destitu\u00eddo de obriga\u00e7\u00e3o. ",
+    "stats": {}
+  },
+  {
+    "instance_id": "id1310",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "efeito de apagamento de limites entre fic\u00e7\u00e3o e realidade.",
+    "stats": {}
+  },
+  {
+    "instance_id": "id202",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "ocorre pela facilidade de acesso \u00e0 p\u00e1gina, o que torna a informa\u00e7\u00e3o vulner\u00e1vel, ou seja, pela din\u00e2mica da m\u00eddia. ",
+    "stats": {}
+  },
+  {
+    "instance_id": "id362",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "dificuldade hist\u00f3rica da sociedade brasileira em institucionalizar formas de controle social compat\u00edveis com valores democr\u00e1ticos. ",
+    "stats": {}
+  },
+  {
+    "instance_id": "id399",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id1059",
+    "train_trial_index": 0,
+    "predicted_text": "",
+    "base64_images": [],
+    "stats": {}
+  },
+  {
+    "instance_id": "id31",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "pelo sectarismo e pela forma violenta e radical com que enfrentavam os opositores ao regime. ",
+    "stats": {}
+  },
+  {
+    "instance_id": "id465",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "crescimento da popula\u00e7\u00e3o urbana e aumento da especula\u00e7\u00e3o imobili\u00e1ria. ",
+    "stats": {}
+  },
+  {
+    "instance_id": "id317",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "valoriza as lembran\u00e7as individuais em detrimento das narrativas populares ou coletivas. ",
+    "stats": {}
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "simple_classification",
+  "description": "Classify movie reviews between positive or negative.",
+  "tags": [
+    "classification"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/imdb_ptbr_scenario.py"
+}

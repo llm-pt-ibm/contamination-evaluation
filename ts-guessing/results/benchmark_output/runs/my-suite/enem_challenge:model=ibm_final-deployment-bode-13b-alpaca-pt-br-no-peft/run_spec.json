@@ -1,0 +1,71 @@
+{
+  "name": "enem_challenge:model=ibm_final-deployment-bode-13b-alpaca-pt-br-no-peft",
+  "scenario_spec": {
+    "class_name": "helm.benchmark.scenarios.enem_challenge_scenario.ENEMChallengeScenario",
+    "args": {}
+  },
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "D\u00ea uma resposta selecionando uma letra entre as op\u00e7\u00f5es fornecidas. Se as op\u00e7\u00f5es forem A, B, C, D e E, sua resposta deve consistir em uma \u00fanica letra que corresponde a resposta correta.\nExemplo: Qual \u00e9 a capital da Fran\u00e7a?\nA. Londres\nB. Paris\nC. Roma\nD. Berlim\nE. Sydney\nResposta: B\n",
+    "input_prefix": "Pergunta: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "chain_of_thought_prefix": "",
+    "chain_of_thought_suffix": "\n",
+    "output_prefix": "Resposta: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 10,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+    "model": "ibm/final-deployment-bode-13b-alpaca-pt-br-no-peft",
+    "temperature": 0.0,
+    "max_tokens": 1,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "metric_specs": [
+    {
+      "class_name": "helm.benchmark.metrics.basic_metrics.BasicGenerationMetric",
+      "args": {
+        "names": [
+          "exact_match",
+          "quasi_exact_match",
+          "prefix_exact_match",
+          "quasi_prefix_exact_match"
+        ]
+      }
+    },
+    {
+      "class_name": "helm.benchmark.metrics.basic_metrics.BasicReferenceMetric",
+      "args": {}
+    },
+    {
+      "class_name": "helm.benchmark.metrics.basic_metrics.InstancesPerSplitMetric",
+      "args": {}
+    }
+  ],
+  "data_augmenter_spec": {
+    "perturbation_specs": [],
+    "should_augment_train_instances": false,
+    "should_include_original_train": false,
+    "should_skip_unchanged_train": false,
+    "should_augment_eval_instances": false,
+    "should_include_original_eval": false,
+    "should_skip_unchanged_eval": false,
+    "seeds_per_instance": 1
+  },
+  "groups": [
+    "enem_challenge"
+  ]
+}

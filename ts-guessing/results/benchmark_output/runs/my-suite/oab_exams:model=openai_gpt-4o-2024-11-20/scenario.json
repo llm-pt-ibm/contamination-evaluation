@@ -1,0 +1,10 @@
+{
+  "name": "oab_exams",
+  "description": "OAB exams dataset",
+  "tags": [
+    "knowledge",
+    "multiple_choice",
+    "pt-br"
+  ],
+  "definition_path": "https://github.com/stanford-crfm/helm/blob/main/src/helm/benchmark/scenarios/oab_exams_scenario.py"
+}

@@ -1,0 +1,708 @@
+{
+   "modelos":[
+      {
+         "modelo":"Bode-13b-alpaca-pt-br",
+         "especializacao":"pt-br",
+         "tamanho": "low",
+         "benchmarks":[
+            {
+               "nome":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.4374,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.16
+               }
+            },
+            {
+               "nome":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.3380,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.24
+               }
+            },
+            {
+               "nome":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.4190,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.22
+               }
+            },
+            {
+               "nome":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.3561,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.18
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"Cabrita_7b_pt_850000",
+         "especializacao":"pt-br",
+         "tamanho": "low",
+         "benchmarks":[
+            {
+               "nome":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.2606,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.08
+               }
+            },
+            {
+               "nome":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.2574,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.13
+               }
+            },
+            {
+               "nome":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.1883,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.09
+               }
+            },
+            {
+               "nome":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.2398,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.07
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"gemma-3-Gaia-PT-BR-4b-it",
+         "especializacao":"pt-br",
+         "tamanho": "low",
+         "benchmarks":[
+            {
+               "nome":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.5695,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.07
+               }
+            },
+            {
+               "nome":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.4171,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.13
+               }
+            },
+            {
+               "nome":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.4958,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.01
+               }
+            },
+            {
+               "nome":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.4474,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.09
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"Gervasio-7b-portuguese-ptbr-decoder",
+         "especializacao":"pt-br",
+         "tamanho": "low",
+         "benchmarks":[
+            {
+               "nome":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.2033,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.05
+               }
+            },
+            {
+               "nome":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.2511,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.11
+               }
+            },
+            {
+               "nome":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.1869,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.08
+               }
+            },
+            {
+               "nome":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.1434,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.07
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"Sabia-7b",
+         "especializacao":"pt-br",
+         "tamanho": "low",
+         "benchmarks":[
+            {
+               "nome":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.5148,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.05
+               }
+            },
+            {
+               "nome":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.4199,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.07
+               }
+            },
+            {
+               "nome":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.4508,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.07
+               }
+            },
+            {
+               "nome":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.3801,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.05
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"Tucano-2b4",
+         "especializacao":"pt-br",
+         "tamanho": "low",
+         "benchmarks":[
+            {
+               "nome":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.2110,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.04
+               }
+            },
+            {
+               "nome":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.2610,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.1
+               }
+            },
+            {
+               "nome":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.2049,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.05
+               }
+            },
+            {
+               "nome":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.2137,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.04
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"granite-3.3-8b-instruct",
+         "especializacao":"multilíngue",
+         "tamanho": "low",
+         "resultados":[
+            {
+               "benchmark":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.6498,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.19
+               }
+            },
+            {
+               "benchmark":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.4380,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.25
+               }
+            },
+            {
+               "benchmark":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.5172,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.02,
+                  "rouge_l":0.26
+               }
+            },
+            {
+               "benchmark":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.4978,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.19
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"Llama-3.1-8B",
+         "especializacao":"multilíngue",
+         "tamanho": "low",
+         "resultados":[
+            {
+               "benchmark":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.6778,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.12
+               }
+            },
+            {
+               "benchmark":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.4855,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.24
+               }
+            },
+            {
+               "benchmark":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao": 0.5726,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.1,
+                  "rouge_l":0.21
+               }
+            },
+            {
+               "benchmark":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.5252,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.15
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"Ministral-8B-Instruct-2410",
+         "especializacao":"multilíngue",
+         "tamanho": "low",
+         "resultados":[
+            {
+               "benchmark":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.6526,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.20
+               }
+            },
+            {
+               "benchmark":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.4529,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.27
+               }
+            },
+            {
+               "benchmark":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.2876,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.27
+               }
+            },
+            {
+               "benchmark":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.4186,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.0,
+                  "rouge_l":0.20
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"Qwen3-8B",
+         "especializacao":"multilíngue",
+         "tamanho": "low",
+         "resultados":[
+            {
+               "benchmark":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.7638,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.22
+               }
+            },
+            {
+               "benchmark":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.4873,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.31
+               }
+            },
+            {
+               "benchmark":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.6763,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.03,
+                  "rouge_l":0.33
+               }
+            },
+            {
+               "benchmark":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.6443,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.24
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"gemma-3-12b-it",
+         "especializacao":"multilíngue",
+         "tamanho": "low",
+         "resultados":[
+            {
+               "benchmark":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.7582,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.20
+               }
+            },
+            {
+               "benchmark":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.5656,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.26
+               }
+            },
+            {
+               "benchmark":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.6500,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.02,
+                  "rouge_l":0.28
+               }
+            },
+            {
+               "benchmark":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.6574,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.00,
+                  "rouge_l":0.21
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"Phi-4 14B",
+         "especializacao":"multilíngue",
+         "tamanho": "medium",
+         "resultados":[
+            {
+               "benchmark":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.5646,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.00,
+                  "rouge_l":0.13
+               }
+            },
+            {
+               "benchmark":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.3239,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.25
+               }
+            },
+            {
+               "benchmark":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.3098,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.18
+               }
+            },
+            {
+               "benchmark":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.3920,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.18
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"LLaMA Maverick 17B",
+         "especializacao":"multilíngue",
+         "tamanho": "medium",
+         "resultados":[
+            {
+               "benchmark":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.3270,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.20
+               }
+            },
+            {
+               "benchmark":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.2932,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.02,
+                  "rouge_l":0.30
+               }
+            },
+            {
+               "benchmark":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.6818,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.03,
+                  "rouge_l":0.29
+               }
+            },
+            {
+               "benchmark":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.7920,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.01,
+                  "rouge_l":0.24
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"Sabia-3.1-2025-05-08",
+         "especializacao":"pt-br",
+         "tamanho": "large",
+         "benchmarks":[
+            {
+               "nome":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.8455,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.02,
+                  "rouge_l":0.28
+               }
+            },
+            {
+               "nome":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.9049,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.03,
+                  "rouge_l":0.31
+               }
+            },
+            {
+               "nome":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.6163,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.08,
+                  "rouge_l":0.35
+               }
+            },
+            {
+               "nome":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.7620,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.04,
+                  "rouge_l":0.26
+               }
+            }
+         ]
+      },
+      {
+         "modelo":"GPT-4o-2024-11-20",
+         "especializacao":"multilíngue",
+         "benchmarks":[
+            {
+               "nome":"Enem Challenge",
+               "metrica":"exact match",
+               "pontuacao":0.7826,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.02,
+                  "rouge_l":0.26
+               }
+            },
+            {
+               "nome":"OAB Exams",
+               "metrica":"exact match",
+               "pontuacao":0.7800,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.03,
+                  "rouge_l":0.31
+               }
+            },
+            {
+               "nome":"BLUEX",
+               "metrica":"exact match",
+               "pontuacao":0.7690,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.08,
+                  "rouge_l":0.34
+               }
+            },
+            {
+               "nome":"Health_QA",
+               "metrica":"exact match",
+               "pontuacao":0.8419,
+               "tipo_tarefa":"Multiple Choice",
+               "contaminacao":{
+                  "exact_match":0.02,
+                  "rouge_l":0.26
+               }
+            }
+         ]
+      }
+   ]
+}

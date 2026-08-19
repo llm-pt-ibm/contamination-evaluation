@@ -71,10 +71,12 @@ All raw outputs are available in **JSONL** format for verification and independe
 
 ## 📄 Citation
 
-If you use this package, please cite the associated paper once available:
+If you use this package, please cite the associated paper:
 
-> Anonymous (2025). *Benchmark Data Contamination in Underrepresented Languages: A Comprehensive Analysis Using Brazilian Data.* Submitted for peer review.
+> Vilar, I. S. M. de M., Maia, D. C., Brunet, J., Morais, F., & Marinho, L. B. (2026). *Benchmark Data Contamination in Underrepresented Languages: A Comprehensive Analysis Using Brazilian Data.* In Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pp. 4765–4777. ELRA. https://doi.org/10.63317/39wbjvajnh7t
+
+BibTeX and citation metadata are also available in [`CITATION.cff`](./CITATION.cff).
 
 ---
 
-For inquiries related to replication or data inspection, please open an issue in this repository after the review process concludes.
+For inquiries related to replication or data inspection, please open an issue in this repository.

@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below.
+  If you use it in academic work, please cite the associated paper
+  listed under "preferred-citation".
+title: >-
+  Replication Package: Benchmark Data Contamination in Underrepresented
+  Languages: A Comprehensive Analysis Using Brazilian Data
+type: software
+authors:
+  - family-names: Vilar
+    given-names: Iriedson Souto Maior de Moraes
+    orcid: "https://orcid.org/0009-0002-2515-7437"
+  - family-names: Maia
+    given-names: David Candeia
+  - family-names: Brunet
+    given-names: João
+  - family-names: Morais
+    given-names: Fabio
+  - family-names: Marinho
+    given-names: Leandro Balby
+repository-code: "https://github.com/llm-pt-ibm/contamination-evaluation"
+url: "https://github.com/llm-pt-ibm/contamination-evaluation"
+keywords:
+  - benchmark data contamination
+  - large language models
+  - Brazilian Portuguese
+  - low-resource languages
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Benchmark Data Contamination in Underrepresented Languages: A
+    Comprehensive Analysis Using Brazilian Data
+  authors:
+    - family-names: Vilar
+      given-names: Iriedson Souto Maior de Moraes
+      orcid: "https://orcid.org/0009-0002-2515-7437"
+    - family-names: Maia
+      given-names: David Candeia
+    - family-names: Brunet
+      given-names: João
+    - family-names: Morais
+      given-names: Fabio
+    - family-names: Marinho
+      given-names: Leandro Balby
+  collection-title: >-
+    Proceedings of the Fifteenth Language Resources and Evaluation
+    Conference (LREC 2026)
+  collection-type: proceedings
+  conference:
+    name: Fifteenth Language Resources and Evaluation Conference (LREC 2026)
+    city: Palma
+    region: Mallorca
+    country: ES
+  publisher:
+    name: European Language Resources Association (ELRA)
+  month: 5
+  year: 2026
+  start: 4765
+  end: 4777
+  doi: "10.63317/39wbjvajnh7t"
